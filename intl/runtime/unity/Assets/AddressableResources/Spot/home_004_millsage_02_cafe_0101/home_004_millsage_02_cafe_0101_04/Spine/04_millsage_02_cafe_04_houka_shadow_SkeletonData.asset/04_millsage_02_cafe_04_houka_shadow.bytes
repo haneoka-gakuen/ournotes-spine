@@ -1,0 +1,80 @@
+{
+"skeleton": {
+	"hash": "vj3n84CF8gk",
+	"spine": "4.2.40",
+	"x": 3049,
+	"y": -2720,
+	"width": 300,
+	"height": 61,
+	"fps": 60,
+	"images": "./images/images_houka/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "04_millsage_02_cafe_04_houka_shadow_01", "bone": "root", "attachment": "04_millsage_02_cafe_04_houka_shadow_01" },
+	{ "name": "04_millsage_02_cafe_04_houka_saucer", "bone": "root", "attachment": "04_millsage_02_cafe_04_houka_saucer" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"04_millsage_02_cafe_04_houka_saucer": {
+				"04_millsage_02_cafe_04_houka_saucer": {
+					"type": "mesh",
+					"uvs": [ 0.76676, 0, 0.9842, 6.9E-4, 1, 0.09223, 1, 0.20036, 0.57443, 1, 0.43586, 1, 0.01574, 0.65062, 0, 0.42212, 0, 0.22342, 0.2945, 0 ],
+					"triangles": [ 1, 2, 3, 7, 8, 9, 6, 7, 9, 4, 5, 9, 6, 9, 5, 0, 4, 9, 3, 4, 0, 3, 0, 1 ],
+					"vertices": [ 3315.18, -2660, 3346.71, -2660.04, 3349, -2665.53, 3349, -2672.02, 3287.29, -2720, 3267.2, -2720, 3206.28, -2699.04, 3204, -2685.33, 3204, -2673.41, 3246.7, -2660 ],
+					"hull": 10,
+					"edges": [ 0, 18, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18 ],
+					"width": 145,
+					"height": 60
+				}
+			},
+			"04_millsage_02_cafe_04_houka_shadow_01": {
+				"04_millsage_02_cafe_04_houka_shadow_01": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 3330, -2710, 3049, -2710, 3049, -2659, 3330, -2659 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 281,
+					"height": 51
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"home_start": {
+		"attachments": {
+			"default": {
+				"04_millsage_02_cafe_04_houka_shadow_01": {
+					"04_millsage_02_cafe_04_houka_shadow_01": {
+						"deform": [
+							{
+								"vertices": [ -26.70215, 0, -26.70215, 0, -26.70215, 0, -26.70215 ],
+								"curve": [ 0.221, 0, 0.398, 1 ]
+							},
+							{
+								"time": 0.55,
+								"vertices": [ -61.07788, 0, -61.07788, 0, -61.07788, 0, -61.07788 ],
+								"curve": "stepped"
+							},
+							{
+								"time": 1.4667,
+								"vertices": [ -61.07788, 0, -61.07788, 0, -61.07788, 0, -61.07788 ],
+								"curve": [ 2.172, 0, 2.878, 1 ]
+							},
+							{ "time": 3.5833 }
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

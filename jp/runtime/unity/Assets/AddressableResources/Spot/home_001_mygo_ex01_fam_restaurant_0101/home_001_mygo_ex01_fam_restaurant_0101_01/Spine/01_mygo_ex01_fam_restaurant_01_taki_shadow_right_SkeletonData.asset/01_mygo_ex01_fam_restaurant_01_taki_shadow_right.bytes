@@ -1,0 +1,295 @@
+{
+"skeleton": {
+	"hash": "5EwU/cdB4MM",
+	"spine": "4.2.40",
+	"x": 3152.99,
+	"y": -2636,
+	"width": 860.01,
+	"height": 296.08,
+	"fps": 60,
+	"images": "./images/images__tomori_taki_soyo_anon/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "*01_mygo_ex01_fam_restaurant_01_taki", "parent": "root", "color": "b02de0ff", "icon": "suiteHearts" },
+	{
+		"name": "01_mygo_ex01_fam_restaurant_01_taki_hip",
+		"parent": "*01_mygo_ex01_fam_restaurant_01_taki",
+		"rotation": -5.45,
+		"x": 4184.46,
+		"y": -2706.69,
+		"color": "9400ffff",
+		"icon": "square"
+	},
+	{
+		"name": "01_mygo_ex01_fam_restaurant_01_taki_body",
+		"parent": "01_mygo_ex01_fam_restaurant_01_taki_hip",
+		"length": 275.38,
+		"rotation": 93.93,
+		"x": 1.86,
+		"y": 3.32,
+		"color": "9400ffff"
+	},
+	{
+		"name": "01_mygo_ex01_fam_restaurant_01_taki_body_upper",
+		"parent": "01_mygo_ex01_fam_restaurant_01_taki_body",
+		"length": 352.64,
+		"rotation": 19.25,
+		"x": 279.02,
+		"y": 1.19,
+		"color": "9400ffff"
+	},
+	{
+		"name": "01_mygo_ex01_fam_restaurant_01_taki_arm_right_sholder",
+		"parent": "01_mygo_ex01_fam_restaurant_01_taki_body_upper",
+		"length": 109.09,
+		"rotation": 60.73,
+		"x": 408.12,
+		"y": 103.31,
+		"color": "8d60afff"
+	},
+	{
+		"name": "01_mygo_ex01_fam_restaurant_01_taki_arm_right_upper",
+		"parent": "01_mygo_ex01_fam_restaurant_01_taki_arm_right_sholder",
+		"length": 365.47,
+		"rotation": 80.48,
+		"x": 106.76,
+		"y": 0.2,
+		"color": "8d60afff"
+	},
+	{ "name": "01_mygo_ex01_fam_restaurant_01_taki_arm_right_elbow", "parent": "01_mygo_ex01_fam_restaurant_01_taki_arm_right_upper", "x": 361.54, "color": "613780ff", "icon": "arrows" },
+	{ "name": "01_mygo_ex01_fam_restaurant_01_taki_arm_right_lower", "parent": "01_mygo_ex01_fam_restaurant_01_taki_arm_right_elbow", "length": 365.4, "rotation": -69.61, "color": "8d60afff" },
+	{
+		"name": "01_mygo_ex01_fam_restaurant_01_taki_body_con",
+		"parent": "01_mygo_ex01_fam_restaurant_01_taki_body_upper",
+		"rotation": -31.41,
+		"x": 218.14,
+		"y": 173.39,
+		"color": "9400ffff",
+		"icon": "arrows"
+	},
+	{
+		"name": "01_mygo_ex01_fam_restaurant_01_taki_body_con_re",
+		"parent": "01_mygo_ex01_fam_restaurant_01_taki_body_upper",
+		"rotation": -31.41,
+		"x": 239.97,
+		"y": 160.08,
+		"color": "878787ff",
+		"icon": "warning"
+	}
+],
+"slots": [
+	{ "name": "01_mygo_ex01_fam_restaurant_01_taki_shadow_right", "bone": "root", "attachment": "01_mygo_ex01_fam_restaurant_01_taki_shadow_right" }
+],
+"transform": [
+	{
+		"name": "01_mygo_ex01_fam_restaurant_01_taki_body_con_re",
+		"bones": [ "01_mygo_ex01_fam_restaurant_01_taki_body_con_re" ],
+		"target": "01_mygo_ex01_fam_restaurant_01_taki_body_con",
+		"x": 25.58,
+		"y": 0.02,
+		"mixRotate": -1,
+		"mixX": -1,
+		"mixScaleX": -1,
+		"mixShearY": -1
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"01_mygo_ex01_fam_restaurant_01_taki_shadow_right": {
+				"01_mygo_ex01_fam_restaurant_01_taki_shadow_right": {
+					"type": "mesh",
+					"uvs": [ 0.00101, 0.55041, 0.23632, 0.46839, 0.4276, 0.41517, 0.58751, 0.12966, 0.64555, 0.02604, 0.88037, 0.39914, 0.8004, 0.48642, 0.51771, 0.79494, 0.31506, 0.86004, 0.18641, 0.98149, 0.00911, 0.99999 ],
+					"triangles": [ 7, 2, 3, 8, 1, 2, 8, 2, 7, 9, 0, 1, 9, 1, 8, 10, 0, 9, 7, 3, 6, 6, 4, 5, 3, 4, 6 ],
+					"vertices": [ 1, 8, 581.16, 122.5, 1, 1, 8, 351.34, 94.89, 1, 1, 8, 164.46, 76.53, 1, 2, 1, 3726.58, -2371.42, 0.75, 8, 9.09, -12.07, 0.25, 1, 1, 3783.34, -2339.92, 1, 1, 1, 4013, -2453.34, 1, 2, 1, 3934.79, -2479.87, 0.75, 8, -200.36, 93.95, 0.25, 1, 8, 75, 190.95, 1, 1, 8, 272.95, 213.05, 1, 1, 8, 398.33, 251.43, 1, 1, 8, 571.66, 259.07, 1 ],
+					"hull": 11,
+					"edges": [ 0, 20, 14, 16, 16, 18, 18, 20, 8, 10, 4, 6, 6, 8, 10, 12, 12, 14, 6, 12, 0, 2, 2, 4 ],
+					"width": 978,
+					"height": 304
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"home_start": {
+		"bones": {
+			"01_mygo_ex01_fam_restaurant_01_taki_body_con": {
+				"translate": [
+					{
+						"x": -29.41,
+						"y": 90.4,
+						"curve": [ 0.217, -29.41, 0.417, -179.04, 0.217, 90.4, 0.417, -43.19 ]
+					},
+					{
+						"time": 0.6333,
+						"x": -179.04,
+						"y": -43.19,
+						"curve": [ 0.856, -179.04, 1.078, -29.41, 0.856, -43.19, 1.078, 90.4 ]
+					},
+					{
+						"time": 1.3,
+						"x": -29.41,
+						"y": 90.4,
+						"curve": [ 1.606, -29.41, 1.911, 0, 1.606, 90.4, 1.911, 0 ]
+					},
+					{ "time": 2.2167 }
+				]
+			},
+			"01_mygo_ex01_fam_restaurant_01_taki_arm_right_lower": {
+				"rotate": [
+					{
+						"value": 47.13,
+						"curve": [ 0.233, 47.13, 0.467, 39.67 ]
+					},
+					{
+						"time": 0.7,
+						"value": 39.67,
+						"curve": [ 0.922, 39.67, 1.144, 32.37 ]
+					},
+					{
+						"time": 1.3667,
+						"value": 32.37,
+						"curve": [ 1.672, 32.37, 1.978, -7.46 ]
+					},
+					{ "time": 2.2833, "value": -7.46 },
+					{ "time": 4 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.233, 1.003, 0.467, 1.01, 0.233, 1.003, 0.467, 1.01 ]
+					},
+					{
+						"time": 0.7,
+						"x": 1.01,
+						"y": 1.01,
+						"curve": [ 0.922, 1.01, 1.144, 1.003, 0.922, 1.01, 1.144, 1.003 ]
+					},
+					{ "time": 1.3667 }
+				]
+			},
+			"01_mygo_ex01_fam_restaurant_01_taki_arm_right_upper": {
+				"rotate": [
+					{
+						"value": -35.97,
+						"curve": [ 0.217, -35.97, 0.417, -30.52 ]
+					},
+					{
+						"time": 0.6333,
+						"value": -30.52,
+						"curve": [ 0.856, -30.52, 1.078, -19.02 ]
+					},
+					{
+						"time": 1.3,
+						"value": -19.02,
+						"curve": [ 1.606, -19.02, 1.911, 2.2 ]
+					},
+					{
+						"time": 2.2167,
+						"value": 2.2,
+						"curve": [ 2.811, 2.2, 3.694, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"01_mygo_ex01_fam_restaurant_01_taki_arm_right_sholder": {
+				"rotate": [
+					{ "value": 14.49 },
+					{
+						"time": 0.6333,
+						"value": 14.83,
+						"curve": [ 0.856, 14.83, 1.078, 8.79 ]
+					},
+					{
+						"time": 1.3,
+						"value": 8.79,
+						"curve": [ 1.606, 8.79, 1.911, -0.54 ]
+					},
+					{
+						"time": 2.2167,
+						"value": -0.54,
+						"curve": [ 2.811, -0.54, 3.406, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"01_mygo_ex01_fam_restaurant_01_taki_body_upper": {
+				"rotate": [
+					{
+						"value": 13.52,
+						"curve": [ 0.217, 13.52, 0.417, 12.29 ]
+					},
+					{
+						"time": 0.6333,
+						"value": 12.29,
+						"curve": [ 0.856, 12.29, 1.078, 13.52 ]
+					},
+					{
+						"time": 1.3,
+						"value": 13.52,
+						"curve": [ 1.606, 13.52, 1.911, -2.04 ]
+					},
+					{
+						"time": 2.2167,
+						"value": -2.04,
+						"curve": [ 2.733, -1.82, 2.381, -0.03 ]
+					},
+					{ "time": 4 }
+				],
+				"translate": [
+					{ "x": 2.99, "y": -4.64, "curve": "stepped" },
+					{
+						"time": 1.3,
+						"x": 2.99,
+						"y": -4.64,
+						"curve": [ 1.606, 2.99, 1.911, 14.92, 1.606, -4.64, 1.911, 0 ]
+					},
+					{
+						"time": 2.2167,
+						"x": 14.92,
+						"curve": [ 2.733, 14.28, 2.381, 0.09, 2.804, 0, 3.413, 0 ]
+					},
+					{ "time": 4 }
+				],
+				"scale": [
+					{ "x": 1.01, "y": 1.01, "curve": "stepped" },
+					{
+						"time": 1.3,
+						"x": 1.01,
+						"y": 1.01,
+						"curve": [ 1.606, 1.01, 1.911, 1, 1.606, 1.01, 1.911, 1 ]
+					},
+					{ "time": 2.2167 }
+				]
+			},
+			"01_mygo_ex01_fam_restaurant_01_taki_body": {
+				"rotate": [
+					{
+						"value": -9.41,
+						"curve": [ 0.19, -9.41, 0.31, -8.33 ]
+					},
+					{
+						"time": 0.5,
+						"value": -8.33,
+						"curve": [ 0.722, -8.33, 0.944, -9.41 ]
+					},
+					{
+						"time": 1.1667,
+						"value": -9.41,
+						"curve": [ 1.472, -9.41, 1.778, 1.12 ]
+					},
+					{
+						"time": 2.0833,
+						"value": 1.12,
+						"curve": [ 2.612, 0.99, 2.341, 0.02 ]
+					},
+					{ "time": 4 }
+				]
+			}
+		}
+	}
+}
+}

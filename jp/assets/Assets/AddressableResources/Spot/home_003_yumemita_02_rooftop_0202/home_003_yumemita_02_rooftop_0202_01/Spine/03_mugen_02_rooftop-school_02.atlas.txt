@@ -1,0 +1,494 @@
+03_mugen_02_rooftop-school_02.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	scale: 0.42
+03_mugen_02_rooftop-school_02_arare_body_1
+	bounds: 169, 250, 303, 345
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_body_2
+	bounds: 1580, 552, 186, 128
+03_mugen_02_rooftop-school_02_arare_body_3
+	bounds: 1124, 930, 197, 115
+03_mugen_02_rooftop-school_02_arare_body_4
+	bounds: 1620, 761, 170, 67
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_drink_1
+	bounds: 1986, 1197, 55, 94
+03_mugen_02_rooftop-school_02_arare_drink_2
+	bounds: 1285, 109, 86, 81
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_drink_3
+	bounds: 1896, 867, 82, 97
+03_mugen_02_rooftop-school_02_arare_drink_4
+	bounds: 1883, 737, 163, 109
+03_mugen_02_rooftop-school_02_arare_face
+	bounds: 1331, 345, 147, 202
+03_mugen_02_rooftop-school_02_arare_face_shadow
+	bounds: 1480, 327, 132, 205
+	offsets: 0, 2, 132, 207
+03_mugen_02_rooftop-school_02_arare_hair_1
+	bounds: 262, 1224, 447, 499
+03_mugen_02_rooftop-school_02_arare_hair_2
+	bounds: 1408, 1673, 373, 529
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_hair_3
+	bounds: 562, 577, 215, 341
+03_mugen_02_rooftop-school_02_arare_hair_4
+	bounds: 448, 26, 131, 222
+03_mugen_02_rooftop-school_02_arare_hair_5
+	bounds: 1921, 966, 57, 139
+03_mugen_02_rooftop-school_02_arare_hair_6
+	bounds: 1941, 216, 68, 78
+	offsets: 0, 0, 68, 79
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_hair_7
+	bounds: 711, 1276, 478, 415
+03_mugen_02_rooftop-school_02_arare_hair_8
+	bounds: 262, 920, 416, 302
+03_mugen_02_rooftop-school_02_arare_head
+	bounds: 1324, 758, 189, 178
+03_mugen_02_rooftop-school_02_arare_left_arm_lower
+	bounds: 1768, 589, 113, 91
+03_mugen_02_rooftop-school_02_arare_left_arm_upper
+	bounds: 922, 920, 112, 289
+03_mugen_02_rooftop-school_02_arare_left_ear
+	bounds: 2005, 1969, 41, 77
+03_mugen_02_rooftop-school_02_arare_left_eye_1
+	bounds: 1696, 221, 12, 12
+03_mugen_02_rooftop-school_02_arare_left_eye_2
+	bounds: 711, 1693, 30, 25
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_left_eye_3
+	bounds: 2038, 879, 8, 17
+03_mugen_02_rooftop-school_02_arare_left_eye_4
+	bounds: 228, 920, 10, 13
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_left_eye_5
+	bounds: 1396, 1674, 17, 10
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_left_eye_6
+	bounds: 562, 555, 20, 24
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_left_eye_7
+	bounds: 1190, 632, 23, 29
+03_mugen_02_rooftop-school_02_arare_left_eye_8
+	bounds: 1585, 319, 6, 26
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_left_eye_9
+	bounds: 849, 127, 15, 18
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_left_eye_close
+	bounds: 588, 556, 19, 37
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_left_eyebrow
+	bounds: 1331, 197, 30, 15
+03_mugen_02_rooftop-school_02_arare_left_hand
+	bounds: 1660, 137, 49, 82
+03_mugen_02_rooftop-school_02_arare_left_leg_1
+	bounds: 1396, 1063, 172, 207
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_left_leg_2
+	bounds: 2, 259, 165, 671
+03_mugen_02_rooftop-school_02_arare_left_leg_3
+	bounds: 2, 9, 23, 34
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_mouth
+	bounds: 2004, 411, 40, 33
+03_mugen_02_rooftop-school_02_arare_mouth_close
+	bounds: 2005, 1782, 40, 33
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_neck
+	bounds: 754, 2, 123, 113
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_right_arm_lower
+	bounds: 995, 401, 218, 229
+03_mugen_02_rooftop-school_02_arare_right_finger_A
+	bounds: 1980, 864, 56, 52
+03_mugen_02_rooftop-school_02_arare_right_finger_B
+	bounds: 971, 591, 39, 22
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_right_hand
+	bounds: 1585, 221, 109, 96
+03_mugen_02_rooftop-school_02_arare_right_leg_1
+	bounds: 2, 932, 258, 791
+03_mugen_02_rooftop-school_02_arare_right_leg_2
+	bounds: 669, 293, 44, 39
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_shadow_01
+	bounds: 1215, 501, 215, 108
+	offsets: 34, 0, 254, 113
+	rotate: 90
+03_mugen_02_rooftop-school_02_arare_shadow_02
+	bounds: 1689, 682, 192, 164
+	offsets: 3, 0, 199, 167
+03_mugen_02_rooftop-school_02_arare_skirt_1
+	bounds: 680, 920, 240, 289
+03_mugen_02_rooftop-school_02_arare_skirt_2
+	bounds: 627, 339, 236, 171
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_body
+	bounds: 779, 585, 190, 333
+03_mugen_02_rooftop-school_02_miyako_face
+	bounds: 984, 120, 161, 199
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_face_shadow
+	bounds: 1179, 20, 97, 88
+03_mugen_02_rooftop-school_02_miyako_hair_1
+	bounds: 995, 283, 116, 227
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_hair_2
+	bounds: 1744, 275, 92, 106
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_hair_3
+	bounds: 800, 352, 193, 231
+03_mugen_02_rooftop-school_02_miyako_hair_4
+	bounds: 627, 293, 40, 44
+03_mugen_02_rooftop-school_02_miyako_hair_5
+	bounds: 1294, 1063, 100, 222
+03_mugen_02_rooftop-school_02_miyako_hair_6
+	bounds: 1486, 534, 92, 222
+03_mugen_02_rooftop-school_02_miyako_hair_7
+	bounds: 983, 19, 99, 194
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_left_arm_upper
+	bounds: 516, 293, 109, 260
+03_mugen_02_rooftop-school_02_miyako_left_eye_1
+	bounds: 1834, 253, 16, 20
+03_mugen_02_rooftop-school_02_miyako_left_eye_2
+	bounds: 1294, 1047, 24, 14
+03_mugen_02_rooftop-school_02_miyako_left_eyebrow_1
+	bounds: 620, 23, 17, 17
+03_mugen_02_rooftop-school_02_miyako_left_eyebrow_2
+	bounds: 1071, 2, 14, 15
+03_mugen_02_rooftop-school_02_miyako_left_hand
+	bounds: 1697, 1107, 251, 287
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_left_leg
+	bounds: 754, 127, 210, 93
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_mouth_1
+	bounds: 710, 313, 31, 24
+03_mugen_02_rooftop-school_02_miyako_mouth_close
+	bounds: 1515, 932, 30, 4
+03_mugen_02_rooftop-school_02_miyako_neck
+	bounds: 1605, 933, 86, 102
+03_mugen_02_rooftop-school_02_miyako_nose
+	bounds: 1119, 1268, 3, 6
+03_mugen_02_rooftop-school_02_miyako_right_arm_lower
+	bounds: 1847, 390, 155, 127
+03_mugen_02_rooftop-school_02_miyako_right_arm_upper_1
+	bounds: 1734, 369, 111, 181
+03_mugen_02_rooftop-school_02_miyako_right_arm_upper_2
+	bounds: 1980, 995, 66, 110
+03_mugen_02_rooftop-school_02_miyako_right_arm_upper_3
+	bounds: 1883, 643, 92, 162
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_right_eye_1
+	bounds: 2017, 371, 29, 17
+03_mugen_02_rooftop-school_02_miyako_right_eye_2
+	bounds: 1971, 848, 52, 14
+03_mugen_02_rooftop-school_02_miyako_right_eyebrow_1
+	bounds: 2038, 1462, 59, 8
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_right_eyebrow_2
+	bounds: 2039, 1570, 48, 7
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_right_hand
+	bounds: 1588, 146, 70, 73
+03_mugen_02_rooftop-school_02_miyako_right_leg_1
+	bounds: 1883, 519, 122, 160
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_right_leg_2
+	bounds: 1515, 766, 164, 103
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_shadow
+	bounds: 2, 1725, 859, 321
+	offsets: 25, 12, 887, 344
+03_mugen_02_rooftop-school_02_miyako_skirt_1
+	bounds: 1396, 1359, 294, 312
+03_mugen_02_rooftop-school_02_miyako_skirt_1a
+	bounds: 1692, 1360, 294, 311
+03_mugen_02_rooftop-school_02_miyako_skirt_2
+	bounds: 1191, 1287, 404, 203
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_skirt_3
+	bounds: 581, 64, 227, 171
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_skirt_3a
+	bounds: 1124, 1047, 227, 168
+	rotate: 90
+03_mugen_02_rooftop-school_02_miyako_skirt_4
+	bounds: 1693, 848, 201, 131
+03_mugen_02_rooftop-school_02_miyako_skirt_4a
+	bounds: 1278, 13, 89, 94
+03_mugen_02_rooftop-school_02_nonoka_body_1
+	bounds: 1980, 918, 75, 66
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_body_2
+	bounds: 2, 34, 159, 223
+03_mugen_02_rooftop-school_02_nonoka_body_3
+	bounds: 1632, 710, 49, 55
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_face
+	bounds: 1185, 110, 85, 98
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_face_shadow
+	bounds: 1580, 682, 77, 50
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_hair_1
+	bounds: 516, 260, 31, 60
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_hair_2
+	bounds: 1986, 1293, 60, 65
+	offsets: 0, 0, 78, 65
+03_mugen_02_rooftop-school_02_nonoka_hair_3
+	bounds: 581, 42, 20, 165
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_hair_4
+	bounds: 971, 632, 181, 286
+03_mugen_02_rooftop-school_02_nonoka_head
+	bounds: 1711, 134, 73, 68
+03_mugen_02_rooftop-school_02_nonoka_left_arm_lower_1
+	bounds: 1942, 286, 73, 102
+03_mugen_02_rooftop-school_02_nonoka_left_arm_lower_2
+	bounds: 1154, 632, 34, 29
+03_mugen_02_rooftop-school_02_nonoka_left_eye_1
+	bounds: 2038, 1429, 8, 8
+03_mugen_02_rooftop-school_02_nonoka_left_eye_2
+	bounds: 984, 337, 13, 9
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_left_eyebrow_1
+	bounds: 1793, 579, 8, 8
+03_mugen_02_rooftop-school_02_nonoka_left_eyebrow_2
+	bounds: 792, 577, 6, 6
+03_mugen_02_rooftop-school_02_nonoka_left_hand
+	bounds: 1036, 924, 31, 78
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_left_leg_1
+	bounds: 1224, 197, 105, 85
+03_mugen_02_rooftop-school_02_nonoka_left_leg_2
+	bounds: 1323, 938, 123, 222
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_mouth_1
+	bounds: 1907, 197, 20, 24
+03_mugen_02_rooftop-school_02_nonoka_mouth_close
+	bounds: 2038, 898, 18, 8
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_nose
+	bounds: 552, 250, 8, 9
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_right_arm
+	bounds: 1036, 957, 86, 252
+03_mugen_02_rooftop-school_02_nonoka_right_eye_1
+	bounds: 800, 339, 16, 11
+03_mugen_02_rooftop-school_02_nonoka_right_eye_2
+	bounds: 1660, 682, 26, 13
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_right_eyebrow_1
+	bounds: 1191, 1276, 24, 9
+03_mugen_02_rooftop-school_02_nonoka_right_eyebrow_2
+	bounds: 516, 250, 18, 8
+03_mugen_02_rooftop-school_02_nonoka_right_leg_1
+	bounds: 1786, 127, 75, 62
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_right_leg_2
+	bounds: 1693, 981, 124, 226
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_shadow
+	bounds: 863, 1693, 543, 353
+03_mugen_02_rooftop-school_02_nonoka_skirt
+	bounds: 1325, 549, 207, 159
+	rotate: 90
+03_mugen_02_rooftop-school_02_nonoka_skirt_2
+	bounds: 1852, 223, 87, 64
+03_mugen_02_rooftop-school_02_ritsu_body
+	bounds: 1614, 368, 118, 182
+03_mugen_02_rooftop-school_02_ritsu_face
+	bounds: 1852, 289, 88, 99
+03_mugen_02_rooftop-school_02_ritsu_face_shadow
+	bounds: 1511, 138, 80, 75
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_hair_1
+	bounds: 1986, 1107, 57, 88
+03_mugen_02_rooftop-school_02_ritsu_hair_2
+	bounds: 1047, 1211, 63, 70
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_hair_3
+	bounds: 1458, 129, 51, 83
+03_mugen_02_rooftop-school_02_ritsu_head
+	bounds: 1215, 401, 98, 114
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_left_arm
+	bounds: 1614, 319, 47, 128
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_left_eye_1
+	bounds: 1217, 1276, 9, 10
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_left_eye_2
+	bounds: 1580, 534, 24, 16
+03_mugen_02_rooftop-school_02_ritsu_left_eye_3
+	bounds: 2041, 849, 15, 5
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_left_eye_4
+	bounds: 1850, 127, 13, 13
+03_mugen_02_rooftop-school_02_ritsu_left_eye_5
+	bounds: 536, 250, 14, 8
+03_mugen_02_rooftop-school_02_ritsu_left_eye_6
+	bounds: 2008, 1360, 14, 16
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_left_eye_7
+	bounds: 1009, 2, 21, 15
+03_mugen_02_rooftop-school_02_ritsu_left_eye_8
+	bounds: 1914, 970, 9, 5
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_left_eyebrow_1
+	bounds: 2, 2, 27, 5
+	offsets: 11, 0, 38, 5
+03_mugen_02_rooftop-school_02_ritsu_left_eyebrow_2
+	bounds: 1325, 528, 19, 4
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_left_leg
+	bounds: 1939, 1686, 64, 360
+03_mugen_02_rooftop-school_02_ritsu_mouth
+	bounds: 243, 920, 11, 10
+03_mugen_02_rooftop-school_02_ritsu_nose
+	bounds: 1472, 334, 6, 9
+03_mugen_02_rooftop-school_02_ritsu_pants
+	bounds: 869, 3, 139, 112
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_right_arm
+	bounds: 2005, 1824, 39, 143
+03_mugen_02_rooftop-school_02_ritsu_right_eye_1
+	bounds: 2039, 1556, 12, 7
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_right_eye_2
+	bounds: 1207, 199, 16, 15
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_right_eye_3
+	bounds: 779, 577, 11, 6
+03_mugen_02_rooftop-school_02_ritsu_right_eye_4
+	bounds: 700, 1211, 9, 11
+03_mugen_02_rooftop-school_02_ritsu_right_eye_5
+	bounds: 2038, 866, 11, 8
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_right_eye_6
+	bounds: 194, 920, 10, 16
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_right_eye_7
+	bounds: 1988, 1360, 14, 18
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_right_eye_8
+	bounds: 563, 250, 8, 9
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_right_eyebrow_1
+	bounds: 680, 1211, 18, 11
+03_mugen_02_rooftop-school_02_ritsu_right_eyebrow_2
+	bounds: 212, 920, 14, 10
+03_mugen_02_rooftop-school_02_ritsu_right_leg
+	bounds: 711, 1211, 63, 334
+	rotate: 90
+03_mugen_02_rooftop-school_02_ritsu_shadow
+	bounds: 1605, 1037, 198, 86
+	offsets: 25, 12, 223, 100
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_body_1
+	bounds: 1472, 220, 111, 105
+03_mugen_02_rooftop-school_02_yuno_body_2
+	bounds: 1896, 848, 17, 73
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_body_3
+	bounds: 1179, 2, 16, 68
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_body_4
+	bounds: 1154, 718, 168, 210
+03_mugen_02_rooftop-school_02_yuno_face
+	bounds: 1368, 123, 88, 89
+03_mugen_02_rooftop-school_02_yuno_face_shadow
+	bounds: 1369, 33, 88, 78
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_glasses_1
+	bounds: 1154, 663, 59, 53
+03_mugen_02_rooftop-school_02_yuno_glasses_2
+	bounds: 169, 920, 10, 23
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_glasses_3
+	bounds: 743, 327, 9, 10
+03_mugen_02_rooftop-school_02_yuno_hair_1
+	bounds: 2004, 390, 34, 19
+03_mugen_02_rooftop-school_02_yuno_hair_2
+	bounds: 2004, 446, 42, 71
+03_mugen_02_rooftop-school_02_yuno_hair_3
+	bounds: 1850, 142, 55, 79
+03_mugen_02_rooftop-school_02_yuno_hair_4
+	bounds: 1988, 1433, 48, 88
+03_mugen_02_rooftop-school_02_yuno_hair_5
+	bounds: 1988, 1620, 64, 58
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_hair_6
+	bounds: 1696, 235, 43, 82
+03_mugen_02_rooftop-school_02_yuno_hair_7
+	bounds: 1185, 217, 37, 64
+03_mugen_02_rooftop-school_02_yuno_hair_8
+	bounds: 1331, 214, 139, 129
+03_mugen_02_rooftop-school_02_yuno_hairacc_1
+	bounds: 1185, 197, 20, 18
+03_mugen_02_rooftop-school_02_yuno_hairacc_2
+	bounds: 1632, 682, 26, 26
+03_mugen_02_rooftop-school_02_yuno_hairacc_3
+	bounds: 2038, 1439, 8, 21
+03_mugen_02_rooftop-school_02_yuno_headphone
+	bounds: 1224, 284, 115, 105
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_left_arm_lower
+	bounds: 1741, 204, 91, 69
+03_mugen_02_rooftop-school_02_yuno_left_arm_upper
+	bounds: 1988, 1523, 49, 95
+03_mugen_02_rooftop-school_02_yuno_left_eye_1
+	bounds: 1053, 2, 16, 15
+03_mugen_02_rooftop-school_02_yuno_left_eye_2
+	bounds: 1032, 2, 19, 15
+03_mugen_02_rooftop-school_02_yuno_left_eyebrow_1
+	bounds: 1369, 14, 17, 19
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_left_eyebrow_2
+	bounds: 1896, 966, 16, 13
+03_mugen_02_rooftop-school_02_yuno_left_finger
+	bounds: 983, 2, 24, 15
+03_mugen_02_rooftop-school_02_yuno_left_leg
+	bounds: 163, 38, 210, 283
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_neck
+	bounds: 581, 2, 38, 37
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_nose
+	bounds: 1515, 758, 6, 7
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_phone
+	bounds: 1988, 1376, 55, 45
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_ribbon
+	bounds: 1768, 552, 23, 35
+03_mugen_02_rooftop-school_02_yuno_right_arm
+	bounds: 849, 144, 133, 206
+03_mugen_02_rooftop-school_02_yuno_right_eye_1
+	bounds: 1087, 2, 13, 15
+03_mugen_02_rooftop-school_02_yuno_right_eye_2
+	bounds: 710, 293, 17, 18
+03_mugen_02_rooftop-school_02_yuno_right_eyebrow_1
+	bounds: 1249, 2, 22, 16
+03_mugen_02_rooftop-school_02_yuno_right_eyebrow_2
+	bounds: 2025, 848, 14, 14
+03_mugen_02_rooftop-school_02_yuno_right_leg
+	bounds: 1396, 1237, 120, 299
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_right_mouth_1
+	bounds: 31, 2, 5, 5
+03_mugen_02_rooftop-school_02_yuno_right_mouth_2
+	bounds: 1939, 1673, 11, 10
+	rotate: 90
+03_mugen_02_rooftop-school_02_yuno_shadow
+	bounds: 169, 555, 391, 363
+	offsets: 0, 0, 540, 363
+03_mugen_02_rooftop-school_02_yuno_skirt
+	bounds: 1547, 932, 129, 56
+	rotate: 90

@@ -1,0 +1,3140 @@
+{
+"skeleton": {
+	"hash": "qYzgFwrLiFM",
+	"spine": "4.2.40",
+	"x": 2837.03,
+	"y": -2720,
+	"width": 517.97,
+	"height": 282,
+	"fps": 60,
+	"images": "./images/images_houka/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_foot_left_IK",
+		"parent": "root",
+		"rotation": -116.25,
+		"x": 3105.75,
+		"y": -3331.13,
+		"color": "0000ffff",
+		"icon": "circle"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_foot_left", "parent": "04_millsage_02_cafe_04_houka_foot_left_IK", "length": 98.38, "rotation": 55.67, "color": "0000ffff", "icon": "ik" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_foot_right_IK",
+		"parent": "root",
+		"rotation": -83.35,
+		"x": 3092.54,
+		"y": -3339.18,
+		"color": "0000ffff",
+		"icon": "circle"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_foot_right", "parent": "04_millsage_02_cafe_04_houka_foot_right_IK", "length": 140.76, "rotation": 26.6, "color": "0000ffff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hip",
+		"parent": "root",
+		"rotation": -2.22,
+		"x": 2895.78,
+		"y": -2753.6,
+		"color": "ff0000ff",
+		"icon": "square"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_body_lower",
+		"parent": "04_millsage_02_cafe_04_houka_hip",
+		"length": 135.16,
+		"rotation": 89.16,
+		"x": 0.66,
+		"y": 5.65,
+		"color": "ff0000ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_body_upper", "parent": "04_millsage_02_cafe_04_houka_body_lower", "length": 184.72, "rotation": 5.75, "x": 135.16, "color": "ff0000ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_neck", "parent": "04_millsage_02_cafe_04_houka_body_upper", "length": 34.24, "rotation": -10.1, "x": 183.26, "color": "ff0000ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_head", "parent": "04_millsage_02_cafe_04_houka_neck", "length": 49.99, "rotation": 9.63, "x": 35.11, "color": "ff0000ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_face_con",
+		"parent": "04_millsage_02_cafe_04_houka_head",
+		"rotation": 7.18,
+		"x": 49.33,
+		"y": -84,
+		"color": "ff0000ff",
+		"icon": "arrows"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_face_con_re",
+		"parent": "04_millsage_02_cafe_04_houka_head",
+		"rotation": 7.18,
+		"x": 65.84,
+		"y": -81.92,
+		"color": "878787ff",
+		"icon": "warning"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_earring_right",
+		"parent": "04_millsage_02_cafe_04_houka_head",
+		"length": 38.6,
+		"rotation": -90,
+		"x": 8.76,
+		"y": 14.18,
+		"inherit": "noRotationOrReflection",
+		"color": "fff600ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair", "parent": "04_millsage_02_cafe_04_houka_head", "x": 200.38, "y": 4.71, "color": "000000ff", "icon": "square" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_front_01",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 50.23,
+		"rotation": 181.2,
+		"x": -33.55,
+		"y": -52.76,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_front_02", "parent": "04_millsage_02_cafe_04_houka_hair_front_01", "length": 41.08, "rotation": -0.43, "x": 50.23, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_front_03",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 44.1,
+		"rotation": -164.19,
+		"x": -27.59,
+		"y": -79.03,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_front_04", "parent": "04_millsage_02_cafe_04_houka_hair_front_03", "length": 40.69, "rotation": -11.84, "x": 44.1, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_left_right_01",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 66.76,
+		"rotation": 176.22,
+		"x": -34.44,
+		"y": -33.33,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_left_right_02", "parent": "04_millsage_02_cafe_04_houka_hair_left_right_01", "length": 56.54, "rotation": 7.05, "x": 66.76, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_left_right_03", "parent": "04_millsage_02_cafe_04_houka_hair_left_right_02", "length": 42.42, "rotation": 8.84, "x": 57.05, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_left_01_01",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 50.68,
+		"rotation": -158.58,
+		"x": -208.87,
+		"y": -37.04,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_left_01_02", "parent": "04_millsage_02_cafe_04_houka_hair_left_01_01", "length": 45.57, "rotation": 7.88, "x": 51.12, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_left_01",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 132.92,
+		"rotation": 177.39,
+		"x": -64.52,
+		"y": -78.38,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_left_02", "parent": "04_millsage_02_cafe_04_houka_hair_back_left_01", "length": 54.59, "rotation": -15.12, "x": 131.34, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_right_01",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 73.91,
+		"rotation": 170.76,
+		"x": -152.88,
+		"y": 31.17,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_right_02", "parent": "04_millsage_02_cafe_04_houka_hair_back_right_01", "length": 60.41, "rotation": 75.91, "x": 76.02, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_right_03", "parent": "04_millsage_02_cafe_04_houka_hair_back_right_02", "length": 57.67, "rotation": -19.38, "x": 61.66, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_07",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 127.83,
+		"rotation": -187.99,
+		"x": -57.97,
+		"y": 46.92,
+		"color": "ff00f6ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_08",
+		"parent": "04_millsage_02_cafe_04_houka_hair_back_07",
+		"length": 124.41,
+		"rotation": -1.23,
+		"x": 127.23,
+		"y": 0.28,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_09", "parent": "04_millsage_02_cafe_04_houka_hair_back_08", "length": 112.35, "rotation": 6.23, "x": 125.43, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_010", "parent": "04_millsage_02_cafe_04_houka_hair_back_09", "length": 108.84, "rotation": 1.39, "x": 109.86, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_011", "parent": "04_millsage_02_cafe_04_houka_hair_back_010", "length": 94.42, "rotation": 0.24, "x": 108.05, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_012", "parent": "04_millsage_02_cafe_04_houka_hair_back_011", "length": 87.37, "rotation": 3.97, "x": 92.7, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_01",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 133.99,
+		"rotation": 173.58,
+		"x": -53.09,
+		"y": 90.06,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_02", "parent": "04_millsage_02_cafe_04_houka_hair_back_01", "length": 110.44, "rotation": -0.24, "x": 134.84, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_03", "parent": "04_millsage_02_cafe_04_houka_hair_back_02", "length": 105.79, "rotation": -6, "x": 111.08, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_04",
+		"parent": "04_millsage_02_cafe_04_houka_hair_back_03",
+		"length": 113.5,
+		"rotation": -4.52,
+		"x": 107.84,
+		"y": -1.27,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_05", "parent": "04_millsage_02_cafe_04_houka_hair_back_04", "length": 84.62, "rotation": 4.33, "x": 115.23, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_06", "parent": "04_millsage_02_cafe_04_houka_hair_back_05", "length": 82.62, "rotation": 10.46, "x": 86.13, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_eyebrow_right_01",
+		"parent": "04_millsage_02_cafe_04_houka_head",
+		"length": 8.6,
+		"rotation": 91.13,
+		"x": 100.21,
+		"y": -77.34,
+		"color": "f79494ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_eyebrow_right_02", "parent": "04_millsage_02_cafe_04_houka_eyebrow_right_01", "length": 13.63, "rotation": 24.64, "x": 8.6, "color": "f79494ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_eyebrow_right_03", "parent": "04_millsage_02_cafe_04_houka_eyebrow_right_02", "length": 11.33, "rotation": 9.68, "x": 14.11, "color": "f79494ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_eyebrow_right_04", "parent": "04_millsage_02_cafe_04_houka_eyebrow_right_03", "length": 11.78, "rotation": 12.13, "x": 11.64, "color": "f79494ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_eyelid_right",
+		"parent": "04_millsage_02_cafe_04_houka_head",
+		"length": 23.25,
+		"rotation": 100.25,
+		"x": 75.78,
+		"y": -71.73,
+		"color": "f79494ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_eye_right",
+		"parent": "04_millsage_02_cafe_04_houka_head",
+		"rotation": 13.1,
+		"x": 47.95,
+		"y": -61.18,
+		"color": "f79494ff",
+		"icon": "triangle"
+	},
+	{
+		"name": "004_millsage_02_cafe_04_houka_eyelash_right_01",
+		"parent": "04_millsage_02_cafe_04_houka_head",
+		"length": 11.9,
+		"rotation": 67.57,
+		"x": 64.35,
+		"y": -72.46,
+		"color": "f79494ff"
+	},
+	{
+		"name": "004_millsage_02_cafe_04_houka_eyelash_right_02",
+		"parent": "004_millsage_02_cafe_04_houka_eyelash_right_01",
+		"length": 14.75,
+		"rotation": 48.45,
+		"x": 12.46,
+		"y": 0.33,
+		"color": "f79494ff"
+	},
+	{ "name": "004_millsage_02_cafe_04_houka_eyelash_right_03", "parent": "004_millsage_02_cafe_04_houka_eyelash_right_02", "length": 12.51, "rotation": 6.02, "x": 15.41, "color": "f79494ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_eyeball_right", "parent": "04_millsage_02_cafe_04_houka_head", "x": 56.76, "y": -59.9, "color": "f79494ff", "icon": "eye" },
+	{ "name": "04_millsage_02_cafe_04_houka_mouth", "parent": "04_millsage_02_cafe_04_houka_head", "x": 12.8, "y": -83.09, "color": "ff0000ff", "icon": "mouth" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_left_sholder",
+		"parent": "04_millsage_02_cafe_04_houka_body_upper",
+		"length": 26.57,
+		"rotation": -117.99,
+		"x": 158.8,
+		"y": -17.69,
+		"color": "ff920cff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_left_upper",
+		"parent": "04_millsage_02_cafe_04_houka_arm_left_sholder",
+		"length": 176.57,
+		"rotation": -10.77,
+		"x": 26.86,
+		"y": 0.63,
+		"color": "ff920cff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_arm_left_elbow", "parent": "04_millsage_02_cafe_04_houka_arm_left_upper", "x": 177.96, "color": "ff920cff", "icon": "arrows" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_left_lower",
+		"parent": "04_millsage_02_cafe_04_houka_arm_left_upper",
+		"length": 165.49,
+		"rotation": 14.63,
+		"x": 179.29,
+		"y": -1.83,
+		"color": "ff920cff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_left_wrist",
+		"parent": "04_millsage_02_cafe_04_houka_hip",
+		"rotation": -19.22,
+		"x": 335.76,
+		"y": 134.7,
+		"color": "ff920cff",
+		"icon": "arrows"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_arm_left_hand", "parent": "04_millsage_02_cafe_04_houka_arm_left_wrist", "length": 65.64, "rotation": 12.89, "color": "ff920cff" },
+	{ "name": "04_millsage_02_cafe_04_houka_arm_left_finger", "parent": "04_millsage_02_cafe_04_houka_arm_left_hand", "length": 29.24, "rotation": -14.2, "x": 65.64, "color": "ff920cff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_right_sholder",
+		"parent": "04_millsage_02_cafe_04_houka_body_upper",
+		"length": 52.19,
+		"rotation": 145.92,
+		"x": 162.88,
+		"y": -0.33,
+		"color": "ff920cff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_right_upper",
+		"parent": "04_millsage_02_cafe_04_houka_arm_right_sholder",
+		"length": 208.17,
+		"rotation": 93.78,
+		"x": 52.73,
+		"y": 0.52,
+		"color": "ff920cff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_arm_right_elbow", "parent": "04_millsage_02_cafe_04_houka_arm_right_upper", "x": 207.62, "y": 0.94, "color": "ff920cff", "icon": "arrows" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_right_lower",
+		"parent": "04_millsage_02_cafe_04_houka_arm_right_upper",
+		"length": 177.89,
+		"rotation": 7.98,
+		"x": 207.62,
+		"y": 0.94,
+		"color": "ff920cff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_right_wrist",
+		"parent": "04_millsage_02_cafe_04_houka_hip",
+		"rotation": -17.41,
+		"x": 321.51,
+		"y": 115.39,
+		"color": "ff920cff",
+		"icon": "arrows"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_arm_right_hand", "parent": "04_millsage_02_cafe_04_houka_arm_right_wrist", "length": 49.6, "rotation": 17.77, "color": "ff920cff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_right_finger_C01",
+		"parent": "04_millsage_02_cafe_04_houka_arm_right_hand",
+		"length": 26.68,
+		"rotation": -16.67,
+		"x": 60.58,
+		"y": 6.33,
+		"color": "ff920cff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_arm_right_finger_C02", "parent": "04_millsage_02_cafe_04_houka_arm_right_finger_C01", "length": 24.83, "rotation": -10.2, "x": 26.68, "color": "ff920cff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_right_finger_B_01",
+		"parent": "04_millsage_02_cafe_04_houka_arm_right_hand",
+		"length": 21.02,
+		"rotation": 5.95,
+		"x": 62.23,
+		"y": 20.78,
+		"color": "ff920cff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_right_finger_E01",
+		"parent": "04_millsage_02_cafe_04_houka_arm_right_hand",
+		"length": 28.02,
+		"rotation": -23.43,
+		"x": 54.61,
+		"y": -13.91,
+		"color": "ff920cff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_jacket_left_01",
+		"parent": "04_millsage_02_cafe_04_houka_body_upper",
+		"length": 59.23,
+		"rotation": 176.31,
+		"x": 29,
+		"y": -84.55,
+		"color": "fff600ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_jacket_left_02",
+		"parent": "04_millsage_02_cafe_04_houka_jacket_left_01",
+		"length": 52.47,
+		"rotation": -0.88,
+		"x": 59.11,
+		"y": 0.64,
+		"color": "fff600ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_jacket_right_01",
+		"parent": "04_millsage_02_cafe_04_houka_body_upper",
+		"length": 65.59,
+		"rotation": 174.34,
+		"x": 25.27,
+		"y": -10.19,
+		"color": "fff600ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_jacket_right_02",
+		"parent": "04_millsage_02_cafe_04_houka_jacket_right_01",
+		"length": 61.4,
+		"rotation": -0.02,
+		"x": 67.46,
+		"y": 0.23,
+		"color": "fff600ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_leg_left_upper",
+		"parent": "04_millsage_02_cafe_04_houka_hip",
+		"length": 380.89,
+		"rotation": -3.96,
+		"x": -12.08,
+		"y": -139.91,
+		"color": "0000ffff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_leg_left_lower",
+		"parent": "04_millsage_02_cafe_04_houka_leg_left_upper",
+		"length": 425.89,
+		"rotation": -104.99,
+		"x": 383.42,
+		"y": 0.26,
+		"color": "0000ffff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_leg_right_upper",
+		"parent": "04_millsage_02_cafe_04_houka_hip",
+		"length": 378.06,
+		"rotation": -3.19,
+		"x": -15.64,
+		"y": -151.73,
+		"color": "0000ffff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_leg_right_lower",
+		"parent": "04_millsage_02_cafe_04_houka_leg_right_upper",
+		"length": 429.63,
+		"rotation": -106.16,
+		"x": 377.94,
+		"y": -0.28,
+		"color": "0000ffff"
+	},
+	{
+		"name": "004_millsage_02_cafe_04_houka_eyelash_right_04",
+		"parent": "004_millsage_02_cafe_04_houka_eyelash_right_03",
+		"length": 18.33,
+		"rotation": 108.32,
+		"x": 11.93,
+		"y": -0.17,
+		"color": "f79494ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_02_01",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 127.83,
+		"rotation": -190.49,
+		"x": -96.1,
+		"y": 35.29,
+		"color": "ff00f6ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_02_02",
+		"parent": "04_millsage_02_cafe_04_houka_hair_back_02_01",
+		"length": 91.74,
+		"rotation": -25,
+		"x": 127.23,
+		"y": 0.28,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_02_03", "parent": "04_millsage_02_cafe_04_houka_hair_back_02_02", "length": 88.05, "rotation": 2.83, "x": 93.43, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_02_04", "parent": "04_millsage_02_cafe_04_houka_hair_back_02_03", "length": 58.02, "rotation": 16.5, "x": 89.12, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_02_05", "parent": "04_millsage_02_cafe_04_houka_hair_back_02_04", "length": 53.72, "rotation": 27.71, "x": 58.23, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_03_01",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 104.07,
+		"rotation": -190.49,
+		"x": -148.58,
+		"y": 54.53,
+		"color": "ff00f6ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_03_02",
+		"parent": "04_millsage_02_cafe_04_houka_hair_back_03_01",
+		"length": 91.74,
+		"rotation": -4.91,
+		"x": 103.27,
+		"y": 0.28,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_03_03", "parent": "04_millsage_02_cafe_04_houka_hair_back_03_02", "length": 88.05, "rotation": 2.83, "x": 93.43, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_03_04", "parent": "04_millsage_02_cafe_04_houka_hair_back_03_03", "length": 71.28, "rotation": 15.9, "x": 89.12, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_03_05", "parent": "04_millsage_02_cafe_04_houka_hair_back_03_04", "length": 53.72, "rotation": 15.73, "x": 72, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_01_01",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 85.27,
+		"rotation": -195.57,
+		"x": -65.26,
+		"y": 66.42,
+		"color": "ff00f6ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_back_01_02",
+		"parent": "04_millsage_02_cafe_04_houka_hair_back_01_01",
+		"length": 68.48,
+		"rotation": -8.95,
+		"x": 84.23,
+		"y": 0.28,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_01_03", "parent": "04_millsage_02_cafe_04_houka_hair_back_01_02", "length": 55.8, "rotation": 2.97, "x": 66.83, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_back_01_04", "parent": "04_millsage_02_cafe_04_houka_hair_back_01_03", "length": 50.74, "rotation": 38.46, "x": 54.78, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hair_left_right_04",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 80.56,
+		"rotation": 174.08,
+		"x": -36.45,
+		"y": -9.36,
+		"color": "ff00f6ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_hair_left_right_05", "parent": "04_millsage_02_cafe_04_houka_hair_left_right_04", "length": 62.39, "rotation": 7.05, "x": 80.17, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_left_right_06", "parent": "04_millsage_02_cafe_04_houka_hair_left_right_05", "length": 41.51, "rotation": 8.84, "x": 62.91, "color": "ff00f6ff" },
+	{ "name": "04_millsage_02_cafe_04_houka_hair_left_right_07", "parent": "04_millsage_02_cafe_04_houka_hair_left_right_06", "length": 35.6, "rotation": 11.98, "x": 40.94, "color": "ff00f6ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_left_finger2",
+		"parent": "04_millsage_02_cafe_04_houka_arm_left_finger",
+		"length": 23.82,
+		"rotation": -10.31,
+		"x": 27.44,
+		"y": 0.35,
+		"color": "ff920cff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_right_finger_E02",
+		"parent": "04_millsage_02_cafe_04_houka_arm_right_finger_E01",
+		"length": 23.06,
+		"rotation": 16.39,
+		"x": 26.13,
+		"y": 0.3,
+		"color": "ff920cff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_right_finger_A_01",
+		"parent": "04_millsage_02_cafe_04_houka_arm_right_hand",
+		"length": 26.71,
+		"rotation": 12.34,
+		"x": 24.88,
+		"y": 22.91,
+		"color": "ff920cff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_arm_right_finger_A_02", "parent": "04_millsage_02_cafe_04_houka_arm_right_finger_A_01", "length": 23.52, "rotation": 20.36, "x": 26.59, "color": "ff920cff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_skirt_01",
+		"parent": "04_millsage_02_cafe_04_houka_hip",
+		"length": 96.77,
+		"rotation": -90.75,
+		"x": -6.22,
+		"y": -41.89,
+		"color": "fff600ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_skirt_02",
+		"parent": "04_millsage_02_cafe_04_houka_skirt_01",
+		"length": 66.13,
+		"rotation": 9.52,
+		"x": 96.55,
+		"y": 0.23,
+		"color": "fff600ff"
+	},
+	{ "name": "04_millsage_02_cafe_04_houka_skirt_03", "parent": "04_millsage_02_cafe_04_houka_skirt_02", "length": 57.19, "rotation": 18.21, "x": 64.62, "color": "fff600ff" },
+	{
+		"name": "04_millsage_02_cafe_04_houka_hairacc_01",
+		"parent": "04_millsage_02_cafe_04_houka_hair",
+		"length": 48.79,
+		"rotation": -95.27,
+		"x": -71.85,
+		"y": 23.4,
+		"inherit": "noRotationOrReflection",
+		"color": "fff600ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_hairacc_02",
+		"parent": "04_millsage_02_cafe_04_houka_hairacc_01",
+		"length": 43.93,
+		"rotation": 267.33,
+		"x": 49.35,
+		"inherit": "noRotationOrReflection",
+		"color": "fff600ff"
+	},
+	{
+		"name": "004_millsage_02_cafe_04_houka_eyelash_left",
+		"parent": "04_millsage_02_cafe_04_houka_head",
+		"length": 10.06,
+		"rotation": -106.85,
+		"x": 77.37,
+		"y": -82.61,
+		"color": "f79494ff"
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_right_finger_B_02",
+		"parent": "04_millsage_02_cafe_04_houka_arm_right_finger_B_01",
+		"length": 9.48,
+		"rotation": -76.17,
+		"x": 21,
+		"y": -0.36,
+		"color": "ff920cff"
+	}
+],
+"slots": [
+	{ "name": "04_millsage_02_cafe_04_houka_arm_left_back", "bone": "04_millsage_02_cafe_04_houka_arm_left_sholder", "attachment": "04_millsage_02_cafe_04_houka_arm_left_back" },
+	{ "name": "04_millsage_02_cafe_04_houka_arm_left_hand", "bone": "04_millsage_02_cafe_04_houka_arm_left_sholder", "attachment": "04_millsage_02_cafe_04_houka_arm_left_hand" },
+	{ "name": "04_millsage_02_cafe_04_houka_arm_left_finger_A", "bone": "04_millsage_02_cafe_04_houka_arm_left_sholder", "attachment": "04_millsage_02_cafe_04_houka_arm_left_finger_A" },
+	{ "name": "04_millsage_02_cafe_04_houka_arm_left", "bone": "04_millsage_02_cafe_04_houka_arm_left_sholder", "attachment": "04_millsage_02_cafe_04_houka_arm_left" },
+	{ "name": "04_millsage_02_cafe_04_houka_shadow_01", "bone": "root", "attachment": "04_millsage_02_cafe_04_houka_shadow_01" },
+	{ "name": "04_millsage_02_cafe_04_houka_saucer", "bone": "root", "attachment": "04_millsage_02_cafe_04_houka_saucer" },
+	{ "name": "04_millsage_02_cafe_04_houka_cup", "bone": "root", "attachment": "04_millsage_02_cafe_04_houka_cup" },
+	{ "name": "04_millsage_02_cafe_04_houka_steam", "bone": "root", "attachment": "04_millsage_02_cafe_04_houka_steam" },
+	{ "name": "04_millsage_02_cafe_04_houka_steam2", "bone": "root" },
+	{ "name": "04_millsage_02_cafe_04_houka_steam3", "bone": "root" },
+	{ "name": "04_millsage_02_cafe_04_houka_arm_right_back", "bone": "04_millsage_02_cafe_04_houka_arm_right_sholder", "attachment": "04_millsage_02_cafe_04_houka_arm_right_back" },
+	{ "name": "04_millsage_02_cafe_04_houka_arm_right_finger_A", "bone": "04_millsage_02_cafe_04_houka_arm_right_sholder", "attachment": "04_millsage_02_cafe_04_houka_arm_right_finger_A" },
+	{ "name": "04_millsage_02_cafe_04_houka_arm_right_finger_B", "bone": "04_millsage_02_cafe_04_houka_arm_right_sholder", "attachment": "04_millsage_02_cafe_04_houka_arm_right_finger_B" },
+	{ "name": "04_millsage_02_cafe_04_houka_arm_right_hand", "bone": "04_millsage_02_cafe_04_houka_arm_right_sholder", "attachment": "04_millsage_02_cafe_04_houka_arm_right_hand" },
+	{ "name": "04_millsage_02_cafe_04_houka_arm_right", "bone": "04_millsage_02_cafe_04_houka_arm_right_sholder", "attachment": "04_millsage_02_cafe_04_houka_arm_right" }
+],
+"ik": [
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_left_wrist",
+		"order": 3,
+		"bones": [ "04_millsage_02_cafe_04_houka_arm_left_upper", "04_millsage_02_cafe_04_houka_arm_left_lower" ],
+		"target": "04_millsage_02_cafe_04_houka_arm_left_wrist",
+		"stretch": true
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_arm_right_wrist",
+		"order": 2,
+		"bones": [ "04_millsage_02_cafe_04_houka_arm_right_upper", "04_millsage_02_cafe_04_houka_arm_right_lower" ],
+		"target": "04_millsage_02_cafe_04_houka_arm_right_wrist",
+		"stretch": true
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_foot_left_IK",
+		"order": 1,
+		"bones": [ "04_millsage_02_cafe_04_houka_leg_left_upper", "04_millsage_02_cafe_04_houka_leg_left_lower" ],
+		"target": "04_millsage_02_cafe_04_houka_foot_left_IK",
+		"bendPositive": false
+	},
+	{
+		"name": "04_millsage_02_cafe_04_houka_foot_right_IK",
+		"bones": [ "04_millsage_02_cafe_04_houka_leg_right_upper", "04_millsage_02_cafe_04_houka_leg_right_lower" ],
+		"target": "04_millsage_02_cafe_04_houka_foot_right_IK",
+		"bendPositive": false
+	}
+],
+"transform": [
+	{
+		"name": "04_millsage_02_cafe_04_houka_face_con_re",
+		"order": 4,
+		"bones": [ "04_millsage_02_cafe_04_houka_face_con_re" ],
+		"target": "04_millsage_02_cafe_04_houka_face_con",
+		"x": 16.64,
+		"mixRotate": -1,
+		"mixX": -1,
+		"mixScaleX": -1,
+		"mixShearY": -1
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"04_millsage_02_cafe_04_houka_arm_left": {
+				"04_millsage_02_cafe_04_houka_arm_left": {
+					"type": "mesh",
+					"uvs": [ 0.4669, 0.5328, 0.52009, 0.40276, 0.54652, 0.42054, 0.58459, 0.44616, 1, 0.72569, 1, 0.79283, 0.9875, 0.84045, 0.94562, 1, 0.88483, 1, 0.49978, 0.55355, 0.53543, 0.5874 ],
+					"triangles": [ 3, 10, 9, 10, 3, 4, 4, 6, 10, 5, 6, 4, 8, 10, 6, 8, 0, 10, 7, 8, 6, 9, 0, 1, 9, 1, 2, 3, 9, 2, 0, 9, 10 ],
+					"vertices": [ 1, 52, 166.53, -3.34, 1, 1, 52, 163.61, 29.93, 1, 2, 52, 172.84, 31.81, 0.85137, 54, 2.25, 34.19, 0.14863, 2, 52, 186.12, 34.52, 0.54242, 54, 15.79, 33.45, 0.45758, 1, 54, 163.55, 25.42, 1, 1, 54, 168.95, 11.67, 1, 1, 54, 169.01, 0.44, 1, 1, 54, 169.21, -37.19, 1, 1, 54, 150.88, -44.39, 1, 2, 52, 177.83, -0.76, 0.61673, 54, -1.15, 1.41, 0.38327, 1, 54, 12.33, -1.29, 1 ],
+					"hull": 9,
+					"edges": [ 8, 10, 14, 16, 2, 4, 4, 18, 2, 0, 4, 6, 6, 8, 6, 20, 10, 12, 12, 14, 20, 12, 16, 0 ],
+					"width": 324,
+					"height": 220
+				}
+			},
+			"04_millsage_02_cafe_04_houka_arm_left_back": {
+				"04_millsage_02_cafe_04_houka_arm_left_back": {
+					"type": "mesh",
+					"uvs": [ 0.43505, 0, 0, 0.45508, 0, 1, 0.59904, 1, 1, 0.40692, 1, 0 ],
+					"triangles": [ 0, 5, 4, 1, 0, 4, 3, 2, 1, 4, 3, 1 ],
+					"vertices": [ 1, 54, 144.22, 17.45, 1, 1, 54, 139.22, -13.85, 1, 1, 54, 151.17, -44.28, 1, 1, 54, 171.8, -36.17, 1, 1, 54, 172.6, 2.37, 1, 1, 54, 163.68, 25.1, 1 ],
+					"hull": 6,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 0, 10 ],
+					"width": 37,
+					"height": 60
+				}
+			},
+			"04_millsage_02_cafe_04_houka_arm_left_finger_A": {
+				"04_millsage_02_cafe_04_houka_arm_left_finger_A": {
+					"type": "mesh",
+					"uvs": [ 0.58279, 0, 0.67577, 0.2468, 0.89409, 0.38937, 1, 0.80282, 1, 1, 0.73238, 1, 0.60704, 0.76717, 0.22296, 0.74579, 0, 0.31096, 0, 0 ],
+					"triangles": [ 8, 9, 0, 7, 8, 0, 7, 0, 1, 6, 7, 1, 6, 1, 2, 5, 6, 2, 3, 5, 2, 5, 3, 4 ],
+					"vertices": [ 1, 56, 42.64, 22.62, 1, 1, 56, 50.2, 14.27, 1, 1, 56, 65.47, 11.09, 1, 1, 56, 74.82, -3.39, 1, 1, 56, 75.93, -10.8, 1, 1, 56, 58.2, -13.47, 1, 1, 56, 48.58, -5.97, 1, 1, 56, 23.02, -8.99, 1, 1, 56, 5.78, 5.12, 1, 1, 56, 4.03, 16.81, 1 ],
+					"hull": 10,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 0, 18 ],
+					"width": 67,
+					"height": 38
+				}
+			},
+			"04_millsage_02_cafe_04_houka_arm_left_hand": {
+				"04_millsage_02_cafe_04_houka_arm_left_hand": {
+					"type": "mesh",
+					"uvs": [ 0.16182, 0, 0.21166, 0.05656, 0.47751, 0.00323, 0.59586, 0.06974, 0.65612, 0.10361, 0.82643, 0.29811, 1, 0.70277, 1, 0.88253, 0.94629, 0.99999, 0.74799, 0.99557, 0.62093, 0.91351, 0.53793, 0.92162, 0.39166, 0.90354, 0.14936, 0.65886, 0.07468, 0.56789, 0, 0.47691, 0, 0.16322, 0.05382, 0, 0.79465, 0.67073 ],
+					"triangles": [ 6, 7, 8, 6, 8, 18, 18, 5, 6, 8, 9, 18, 9, 10, 18, 10, 4, 18, 18, 4, 5, 10, 11, 3, 3, 11, 2, 10, 3, 4, 13, 1, 12, 11, 12, 2, 12, 1, 2, 13, 14, 1, 14, 0, 1, 0, 14, 16, 0, 16, 17, 14, 15, 16 ],
+					"vertices": [ 1, 54, 154.97, 18.45, 1, 1, 56, 1.54, 17.83, 1, 3, 56, 39.15, 26.94, 0.99786, 57, -32.29, 19.62, 0.00209, 95, -62.22, 8.26, 4.0E-5, 3, 56, 56.75, 25.28, 0.85065, 57, -14.82, 22.33, 0.12683, 95, -45.52, 14.06, 0.02253, 3, 56, 65.72, 24.44, 0.61418, 57, -5.93, 23.71, 0.31163, 95, -37.01, 17.01, 0.07419, 3, 56, 91.99, 15.8, 0.00605, 57, 21.66, 21.78, 0.25779, 95, -9.52, 20.05, 0.73616, 1, 95, 25.7, 12.08, 1, 1, 95, 31.98, 2.44, 1, 2, 57, 55.07, -12.92, 0.04566, 95, 29.55, -8.11, 0.95434, 3, 56, 87.38, -30.03, 0.01546, 57, 28.44, -23.78, 0.96908, 95, 5.3, -23.56, 0.01547, 2, 56, 68.38, -27.58, 0.32523, 57, 9.42, -26.06, 0.67477, 2, 56, 56.56, -29.88, 0.69075, 57, -1.48, -31.2, 0.30925, 2, 56, 35.41, -31.89, 0.97059, 57, -21.48, -38.33, 0.02941, 1, 56, -1.66, -21.63, 1, 1, 54, 156.49, -20, 1, 1, 54, 144.28, -18.54, 1, 1, 54, 136.94, 0.15, 1, 1, 54, 140.39, 12.73, 1, 1, 57, 26.64, -1.99, 1 ],
+					"hull": 18,
+					"edges": [ 0, 2, 2, 4, 8, 10, 10, 12, 12, 14, 18, 20, 24, 26, 30, 32, 32, 34, 0, 34, 26, 28, 28, 30, 0, 28, 4, 6, 6, 8, 20, 22, 22, 24, 6, 22, 14, 16, 16, 18, 10, 36, 36, 18 ],
+					"width": 145,
+					"height": 64
+				}
+			},
+			"04_millsage_02_cafe_04_houka_arm_right": {
+				"04_millsage_02_cafe_04_houka_arm_right": {
+					"type": "mesh",
+					"uvs": [ 0.00119, 0.1603, 0.02023, 1.0E-5, 0.2012, 0, 0.36178, 0.23342, 0.57461, 0.44344, 0.60159, 0.45768, 0.63668, 0.4798, 0.99873, 0.72282, 1, 0.7882, 0.97593, 0.84665, 0.87666, 1, 0.83842, 1, 0.51974, 0.77497, 0.48901, 0.75327, 0.46246, 0.71291, 0.22468, 0.5625, 0.05846, 0.48109, 0, 0.34437, 0.5453, 0.60547, 0.51408, 0.58511, 0.57821, 0.62738, 0.0916, 0.22946, 0.30475, 0.40827 ],
+					"triangles": [ 10, 11, 9, 12, 20, 11, 11, 20, 9, 20, 6, 9, 9, 7, 8, 9, 6, 7, 20, 5, 6, 20, 18, 5, 12, 18, 20, 12, 13, 18, 18, 14, 19, 18, 13, 14, 15, 22, 14, 14, 22, 19, 18, 19, 4, 19, 22, 4, 22, 15, 21, 15, 16, 21, 22, 3, 4, 22, 21, 3, 21, 2, 3, 18, 4, 5, 16, 17, 21, 0, 1, 21, 21, 1, 2, 17, 0, 21 ],
+					"vertices": [ 2, 7, 136.95, 60.04, 0.89714, 59, -36.08, -0.2, 0.10286, 1, 7, 177.58, 50.54, 1, 2, 7, 174.2, -21.4, 0.66571, 58, -21.18, 11.11, 0.33429, 2, 59, 99.76, 49.73, 0.99954, 61, -100.04, 63.28, 4.6E-4, 1, 59, 199.74, 41.34, 1, 2, 59, 210.94, 43.09, 0.07067, 61, 9.14, 41.28, 0.92933, 2, 59, 225.94, 44.54, 0.00449, 61, 24.2, 40.64, 0.99551, 1, 61, 180.82, 30.47, 1, 1, 61, 186.92, 14.88, 1, 1, 61, 182.93, -2.44, 1, 1, 61, 158.91, -52.69, 1, 1, 61, 144.57, -57.8, 1, 2, 59, 219.72, -43.98, 0.7097, 61, 5.75, -46.17, 0.2903, 2, 59, 206.31, -44.73, 0.87393, 61, -7.63, -45.04, 0.12607, 1, 59, 192.16, -40.47, 1, 1, 59, 90.46, -50.21, 1, 2, 7, 53.85, 41.13, 0.81714, 59, 22.17, -62.41, 0.18286, 2, 7, 89.9, 62.73, 0.84286, 59, -14.66, -42.18, 0.15714, 1, 59, 208.63, -0.82, 1, 1, 59, 195.2, -1.96, 1, 2, 59, 222.83, 0.28, 0.05851, 61, 14.98, -2.76, 0.94149, 2, 7, 117.57, 24.93, 0.41429, 59, 4, 0.79, 0.58571, 1, 59, 100.39, -0.46, 1 ],
+					"hull": 18,
+					"edges": [ 2, 4, 4, 6, 6, 8, 14, 16, 20, 22, 32, 34, 8, 10, 26, 28, 10, 36, 36, 26, 8, 38, 38, 28, 10, 12, 12, 14, 22, 24, 24, 26, 12, 40, 40, 24, 38, 36, 36, 40, 16, 18, 40, 18, 18, 20, 2, 0, 0, 34, 42, 0, 38, 44, 44, 42, 6, 44, 28, 30, 30, 32, 44, 30 ],
+					"width": 398,
+					"height": 256
+				}
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_back": {
+				"04_millsage_02_cafe_04_houka_arm_right_back": {
+					"type": "mesh",
+					"uvs": [ 0.60957, 0, 0, 0.61575, 0, 1, 0.34877, 1, 1, 0.48976, 1, 0 ],
+					"triangles": [ 0, 5, 4, 1, 0, 4, 3, 2, 1, 4, 3, 1 ],
+					"vertices": [ 1, 61, 158.95, 20.59, 1, 1, 61, 138.78, -31.72, 1, 1, 61, 147.69, -56.69, 1, 1, 61, 167.4, -49.66, 1, 1, 61, 192.37, -3.37, 1, 1, 61, 181.01, 28.46, 1 ],
+					"hull": 6,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 0, 10 ],
+					"width": 60,
+					"height": 69
+				}
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_finger_A": {
+				"04_millsage_02_cafe_04_houka_arm_right_finger_A": {
+					"type": "mesh",
+					"uvs": [ 0, 0.47165, 0.21838, 0.33303, 0.57878, 0.29838, 0.81222, 0, 1, 0, 1, 0.411, 0.75079, 0.86151, 0.50916, 1, 0, 1 ],
+					"triangles": [ 6, 3, 5, 6, 2, 3, 3, 4, 5, 8, 1, 7, 7, 2, 6, 7, 1, 2, 8, 0, 1 ],
+					"vertices": [ 1, 97, -5.67, 8.59, 1, 1, 97, 6.79, 9.96, 1, 2, 97, 26.45, 7.24, 0.15631, 98, 2.38, 6.84, 0.84369, 1, 98, 17.38, 6.92, 1, 1, 98, 26.25, 1.63, 1, 2, 97, 48.7, 0.15, 0.01029, 98, 20.78, -7.55, 0.98971, 2, 97, 33.09, -8.88, 0.84525, 98, 3, -10.58, 0.15475, 1, 97, 19.37, -10, 1, 1, 97, -8.17, -4.92, 1 ],
+					"hull": 9,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 0, 16 ],
+					"width": 55,
+					"height": 26
+				}
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_finger_B": {
+				"04_millsage_02_cafe_04_houka_arm_right_finger_B": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 3, 0, 1, 2, 3 ],
+					"vertices": [ 1, 105, 14.16, 4.49, 1, 2, 105, 9.24, -10.73, 0.47143, 66, 12.78, -11.9, 0.52857, 1, 105, -7.88, -5.2, 1, 2, 105, -2.97, 10.02, 0.46286, 66, 30.02, 4.91, 0.53714 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 16,
+					"height": 18
+				}
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_hand": {
+				"04_millsage_02_cafe_04_houka_arm_right_hand": {
+					"type": "mesh",
+					"uvs": [ 0.11045, 0.04631, 0, 0.3979, 0, 0.62876, 0.17429, 0.75408, 0.21602, 0.80713, 0.34167, 0.93949, 0.53581, 0.90394, 0.59384, 0.90472, 0.641, 0.93473, 0.72118, 0.98574, 0.96145, 0.99715, 1, 0.83414, 0.93912, 0.76605, 0.82122, 0.68824, 0.73795, 0.58726, 0.71651, 0.55391, 0.74396, 0.57879, 0.82164, 0.64252, 0.93434, 0.73797, 0.99934, 0.76032, 0.99999, 0.62309, 0.85405, 0.38999, 0.76411, 0.31616, 0.73487, 0.29215, 0.76515, 0.28783, 0.84081, 0.27953, 0.88495, 0.18643, 0.86877, 0.0665, 0.67157, 0.06297, 0.55068, 0.04487, 0.47683, 1.0E-5, 0.40418, 0.0285, 0.27474, 0.17241, 0.79164, 0.84341 ],
+					"triangles": [ 9, 33, 10, 10, 33, 12, 33, 13, 12, 10, 12, 11, 33, 14, 13, 9, 8, 33, 8, 14, 33, 8, 15, 14, 8, 7, 15, 19, 18, 20, 20, 18, 21, 18, 17, 21, 23, 15, 29, 17, 16, 21, 16, 22, 21, 16, 15, 22, 15, 23, 22, 23, 28, 24, 25, 24, 27, 25, 27, 26, 27, 24, 28, 7, 6, 15, 15, 6, 29, 6, 5, 32, 5, 4, 32, 32, 31, 6, 6, 31, 29, 29, 31, 30, 23, 29, 28, 4, 3, 32, 3, 2, 1, 32, 3, 1, 32, 1, 0 ],
+					"vertices": [ 1, 61, 147.43, 19.46, 1, 1, 61, 140.19, -8.89, 1, 1, 61, 145.54, -23.89, 1, 1, 61, 172.74, -23.36, 1, 2, 63, -5.77, -24.12, 0.97827, 67, -51.34, -33.39, 0.02173, 2, 63, 13.11, -32.65, 0.86354, 67, -30.62, -33.7, 0.13646, 1, 63, 41.75, -29.26, 1, 2, 63, 50.33, -29.03, 0.4282, 67, 2.09, -15.58, 0.5718, 2, 63, 57.38, -30.87, 0.18376, 67, 9.29, -14.47, 0.81624, 1, 67, 21.52, -12.58, 1, 1, 96, 27.2, -6.32, 1, 1, 96, 31.09, 5.68, 1, 1, 96, 21.47, 8.93, 1, 3, 64, 27.48, -11.95, 0.01421, 67, 26.13, 12.31, 0.04332, 96, 3.39, 11.53, 0.94246, 4, 63, 70.94, -6.44, 0.00698, 64, 13.58, -9.27, 0.30383, 67, 12.01, 13.34, 0.52039, 96, -9.86, 16.5, 0.16879, 4, 63, 67.69, -4.24, 0.0223, 64, 9.84, -8.09, 0.65071, 67, 8.16, 14.07, 0.28479, 96, -13.35, 18.28, 0.04221, 5, 63, 71.81, -5.83, 0.00232, 64, 14.24, -8.43, 0.9013, 65, -10.75, -10.5, 0.00118, 67, 12.57, 14.25, 0.08402, 96, -9.07, 17.21, 0.01118, 3, 64, 26.54, -8.94, 0.46464, 65, 1.45, -8.83, 0.53519, 67, 24.84, 15.19, 1.7E-4, 1, 65, 19.24, -6.58, 1, 1, 65, 28.41, -3.31, 1, 1, 65, 23.95, 5.04, 1, 3, 66, 23.95, -15.61, 5.3E-4, 64, 25.54, 9.1, 0.73434, 65, -2.73, 8.76, 0.26513, 2, 66, 11.03, -9.59, 0.16174, 64, 11.3, 9.7, 0.83826, 2, 66, 6.83, -7.63, 0.55152, 64, 6.67, 9.89, 0.44848, 2, 66, 11.32, -7.65, 0.88108, 64, 10.83, 11.6, 0.11892, 2, 66, 22.53, -7.87, 0.99989, 64, 21.26, 15.7, 1.1E-4, 1, 105, 3.56, 7.89, 1, 2, 66, 27.71, 6.49, 0.63143, 105, -5.05, 8.15, 0.36857, 2, 63, 59.94, 29.4, 0.67243, 66, -1.39, 8.81, 0.32757, 1, 63, 42.01, 30.06, 1, 1, 63, 30.99, 32.8, 1, 1, 63, 20.31, 30.48, 1, 1, 61, 173.26, 19.43, 1, 2, 64, 26.74, -23.5, 1.4E-4, 96, 0.73, 0.27, 0.99986 ],
+					"hull": 33,
+					"edges": [ 0, 2, 2, 4, 4, 6, 20, 22, 22, 24, 24, 26, 34, 36, 36, 38, 38, 40, 40, 42, 50, 52, 52, 54, 58, 60, 60, 62, 62, 64, 0, 64, 6, 8, 8, 10, 64, 8, 10, 12, 12, 14, 12, 62, 30, 32, 32, 34, 26, 28, 28, 30, 42, 34, 26, 66, 18, 20, 66, 18, 54, 56, 56, 58, 46, 48, 48, 50, 42, 44, 44, 46, 14, 16, 16, 18 ],
+					"width": 148,
+					"height": 69
+				}
+			},
+			"04_millsage_02_cafe_04_houka_cup": {
+				"04_millsage_02_cafe_04_houka_cup": {
+					"type": "mesh",
+					"uvs": [ 0.86684, 0, 1, 9.0E-5, 1, 0.30712, 0.96358, 1, 0.0701, 1, 0, 0.49123, 0, 0.0378, 0.18529, 0 ],
+					"triangles": [ 0, 1, 2, 5, 6, 7, 2, 4, 5, 2, 7, 0, 7, 2, 5, 3, 4, 2 ],
+					"vertices": [ 3313.41, -2607, 3323, -2607.01, 3323, -2627.88, 3320.38, -2675, 3256.05, -2675, 3251, -2640.4, 3251, -2609.57, 3264.34, -2607 ],
+					"hull": 8,
+					"edges": [ 0, 14, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14 ],
+					"width": 72,
+					"height": 68
+				}
+			},
+			"04_millsage_02_cafe_04_houka_saucer": {
+				"04_millsage_02_cafe_04_houka_saucer": {
+					"type": "mesh",
+					"uvs": [ 0.76676, 0, 0.9842, 6.9E-4, 1, 0.09223, 1, 0.20036, 0.57443, 1, 0.43586, 1, 0.01574, 0.65062, 0, 0.42212, 0, 0.22342, 0.2945, 0 ],
+					"triangles": [ 1, 2, 3, 7, 8, 9, 6, 7, 9, 4, 5, 9, 6, 9, 5, 0, 4, 9, 3, 4, 0, 3, 0, 1 ],
+					"vertices": [ 3315.18, -2660, 3346.71, -2660.04, 3349, -2665.53, 3349, -2672.02, 3287.29, -2720, 3267.2, -2720, 3206.28, -2699.04, 3204, -2685.33, 3204, -2673.41, 3246.7, -2660 ],
+					"hull": 10,
+					"edges": [ 0, 18, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18 ],
+					"width": 145,
+					"height": 60
+				}
+			},
+			"04_millsage_02_cafe_04_houka_shadow_01": {
+				"04_millsage_02_cafe_04_houka_shadow_01": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 3330, -2710, 3049, -2710, 3049, -2659, 3330, -2659 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 281,
+					"height": 51
+				}
+			},
+			"04_millsage_02_cafe_04_houka_steam": {
+				"04_millsage_02_cafe_04_houka_steam": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 3342, -2625, 3235, -2625, 3235, -2468, 3342, -2468 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 107,
+					"height": 157
+				}
+			},
+			"04_millsage_02_cafe_04_houka_steam2": {
+				"04_millsage_02_cafe_04_houka_steam": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 3342, -2625, 3235, -2625, 3235, -2468, 3342, -2468 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 107,
+					"height": 157
+				}
+			},
+			"04_millsage_02_cafe_04_houka_steam3": {
+				"04_millsage_02_cafe_04_houka_steam": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 3342, -2625, 3235, -2625, 3235, -2468, 3342, -2468 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 107,
+					"height": 157
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"home_start": {
+		"slots": {
+			"04_millsage_02_cafe_04_houka_steam": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.439, 1, 0.878, 1, 0.439, 1, 0.878, 1, 0.439, 1, 0.878, 1, 0.439, 0, 0.366, 0.96 ]
+					},
+					{
+						"time": 1.3167,
+						"color": "ffffffff",
+						"curve": [ 2.017, 1, 2.717, 1, 2.017, 1, 2.717, 1, 2.017, 1, 2.717, 1, 2.82, 0.98, 2.717, 0 ]
+					},
+					{ "time": 3.4167, "color": "ffffff00" }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_steam2": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 1.35,
+						"color": "ffffff00",
+						"curve": [ 1.712, 1, 3.113, 1, 1.712, 1, 3.113, 1, 1.712, 1, 3.113, 1, 1.712, 0, 3.113, 1 ]
+					},
+					{ "time": 3.45, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "04_millsage_02_cafe_04_houka_steam" },
+					{ "time": 0.85, "name": "04_millsage_02_cafe_04_houka_steam" }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_steam3": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 1.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "04_millsage_02_cafe_04_houka_steam" },
+					{ "time": 0.85, "name": "04_millsage_02_cafe_04_houka_steam" }
+				]
+			}
+		},
+		"bones": {
+			"04_millsage_02_cafe_04_houka_arm_right_upper": {
+				"rotate": [
+					{
+						"value": -0.46,
+						"curve": [ 0.391, -0.6, 0.374, -3.25 ]
+					},
+					{
+						"time": 0.6,
+						"value": -3.59,
+						"curve": [ 0.922, -3.59, 1.244, -6.52 ]
+					},
+					{
+						"time": 1.5667,
+						"value": -6.52,
+						"curve": [ 2.165, -6.52, 2.401, 0.91 ]
+					},
+					{
+						"time": 2.7333,
+						"value": 0.91,
+						"curve": [ 3.165, 0.91, 3.569, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_finger_A_02": {
+				"rotate": [
+					{ "value": -29.53, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"value": -29.53,
+						"curve": [ 0.922, -29.53, 1.244, -22.07 ]
+					},
+					{
+						"time": 1.5667,
+						"value": -22.07,
+						"curve": [ 2.165, -22.07, 2.346, -5 ]
+					},
+					{
+						"time": 2.7333,
+						"value": -5,
+						"curve": [ 3.165, -5, 3.569, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_finger_A_01": {
+				"rotate": [
+					{
+						"value": -1.81,
+						"curve": [ 0.2, -1.81, 0.4, -3.85 ]
+					},
+					{
+						"time": 0.6,
+						"value": -3.85,
+						"curve": [ 0.922, -3.85, 1.244, -6.88 ]
+					},
+					{
+						"time": 1.5667,
+						"value": -6.88,
+						"curve": [ 2.165, -6.89, 2.346, 6.66 ]
+					},
+					{
+						"time": 2.7333,
+						"value": 6.66,
+						"curve": [ 3.156, 6.66, 3.578, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_finger_E02": {
+				"rotate": [
+					{
+						"time": 0.6,
+						"curve": [ 0.922, 0, 1.244, -4.4 ]
+					},
+					{
+						"time": 1.5667,
+						"value": -4.4,
+						"curve": [ 2.165, -4.39, 2.346, -9.12 ]
+					},
+					{
+						"time": 2.7333,
+						"value": -9.12,
+						"curve": [ 3.165, -9.12, 3.569, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_left_finger2": {
+				"rotate": [
+					{
+						"time": 0.6,
+						"curve": [ 1.311, 0, 2.022, 0.31 ]
+					},
+					{
+						"time": 2.7333,
+						"value": 0.31,
+						"curve": [ 3.174, 0.31, 3.559, 0 ]
+					},
+					{ "time": 4 }
+				],
+				"scale": [
+					{
+						"time": 0.6,
+						"curve": [ 1.311, 1, 2.022, 0.941, 1.311, 1, 2.022, 1 ]
+					},
+					{
+						"time": 2.7333,
+						"x": 0.941,
+						"curve": [ 3.174, 0.941, 3.559, 1, 3.174, 1, 3.559, 1 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_left_right_07": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.311, 1.57, 0.622, 2.15 ]
+					},
+					{
+						"time": 0.9333,
+						"value": 2.15,
+						"curve": [ 1.183, 2.15, 1.433, 1.35 ]
+					},
+					{
+						"time": 1.6833,
+						"value": 1.35,
+						"curve": [ 2.056, 1.35, 2.428, -0.44 ]
+					},
+					{
+						"time": 2.8,
+						"value": -0.44,
+						"curve": [ 3.229, -0.44, 3.571, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_left_right_06": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.3, 1.57, 0.6, 2.15 ]
+					},
+					{
+						"time": 0.9,
+						"value": 2.15,
+						"curve": [ 1.133, 2.15, 1.367, 1.35 ]
+					},
+					{
+						"time": 1.6,
+						"value": 1.35,
+						"curve": [ 1.956, 1.35, 2.311, -0.44 ]
+					},
+					{
+						"time": 2.6667,
+						"value": -0.44,
+						"curve": [ 3.142, -0.44, 3.525, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_left_right_05": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.289, 1.57, 0.578, 2.15 ]
+					},
+					{
+						"time": 0.8667,
+						"value": 2.15,
+						"curve": [ 1.089, 2.15, 1.311, 1.35 ]
+					},
+					{
+						"time": 1.5333,
+						"value": 1.35,
+						"curve": [ 1.878, 1.35, 2.222, -0.44 ]
+					},
+					{
+						"time": 2.5667,
+						"value": -0.44,
+						"curve": [ 3.077, -0.44, 3.49, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_left_right_04": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.278, 1.57, 0.556, 2.15 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 2.15,
+						"curve": [ 1.056, 2.15, 1.278, 1.35 ]
+					},
+					{
+						"time": 1.5,
+						"value": 1.35,
+						"curve": [ 1.833, 1.35, 2.167, -0.44 ]
+					},
+					{
+						"time": 2.5,
+						"value": -0.44,
+						"curve": [ 3.033, -0.44, 3.467, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_01_04": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.311, 1.57, 0.622, 2.15 ]
+					},
+					{
+						"time": 0.9333,
+						"value": 2.15,
+						"curve": [ 1.239, 2.15, 1.544, 1.76 ]
+					},
+					{
+						"time": 1.85,
+						"value": 1.76,
+						"curve": [ 2.228, 1.76, 2.606, -5.78 ]
+					},
+					{
+						"time": 2.9833,
+						"value": -5.78,
+						"curve": [ 3.37, -5.78, 3.614, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_01_03": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.3, 1.57, 0.6, 2.15 ]
+					},
+					{
+						"time": 0.9,
+						"value": 2.15,
+						"curve": [ 1.189, 2.15, 1.478, 1.76 ]
+					},
+					{
+						"time": 1.7667,
+						"value": 1.76,
+						"curve": [ 2.128, 1.76, 2.489, -0.44 ]
+					},
+					{
+						"time": 2.85,
+						"value": -0.44,
+						"curve": [ 3.285, -0.44, 3.565, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_01_02": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.289, 1.57, 0.578, 2.15 ]
+					},
+					{
+						"time": 0.8667,
+						"value": 2.15,
+						"curve": [ 1.15, 2.15, 1.433, 1.76 ]
+					},
+					{
+						"time": 1.7167,
+						"value": 1.76,
+						"curve": [ 2.061, 1.76, 2.406, -0.44 ]
+					},
+					{
+						"time": 2.75,
+						"value": -0.44,
+						"curve": [ 3.221, -0.44, 3.529, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_01_01": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.278, 1.57, 0.556, 2.15 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 2.15,
+						"curve": [ 1.111, 2.15, 1.389, 1.76 ]
+					},
+					{
+						"time": 1.6667,
+						"value": 1.76,
+						"curve": [ 2, 1.76, 2.333, -0.44 ]
+					},
+					{
+						"time": 2.6667,
+						"value": -0.44,
+						"curve": [ 3.168, -0.44, 3.498, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_03_05": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.322, 1.57, 0.644, 2.15 ]
+					},
+					{
+						"time": 0.9667,
+						"value": 2.15,
+						"curve": [ 1.233, 2.15, 1.5, 1.35 ]
+					},
+					{
+						"time": 1.7667,
+						"value": 1.35,
+						"curve": [ 2.178, 1.35, 2.589, -0.44 ]
+					},
+					{
+						"time": 3,
+						"value": -0.44,
+						"curve": [ 3.368, -0.44, 3.632, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_03_04": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.311, 1.57, 0.622, 2.15 ]
+					},
+					{
+						"time": 0.9333,
+						"value": 2.15,
+						"curve": [ 1.189, 2.15, 1.444, 1.35 ]
+					},
+					{
+						"time": 1.7,
+						"value": 1.35,
+						"curve": [ 2.078, 1.35, 2.456, -0.44 ]
+					},
+					{
+						"time": 2.8333,
+						"value": -0.44,
+						"curve": [ 3.262, -0.44, 3.572, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_03_03": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.3, 1.57, 0.6, 2.15 ]
+					},
+					{
+						"time": 0.9,
+						"value": 2.15,
+						"curve": [ 1.15, 2.15, 1.4, 1.35 ]
+					},
+					{
+						"time": 1.65,
+						"value": 1.35,
+						"curve": [ 2.006, 1.35, 2.361, -0.44 ]
+					},
+					{
+						"time": 2.7167,
+						"value": -0.44,
+						"curve": [ 3.187, -0.44, 3.53, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_03_02": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.289, 1.57, 0.578, 2.15 ]
+					},
+					{
+						"time": 0.8667,
+						"value": 2.15,
+						"curve": [ 1.1, 2.15, 1.333, 1.35 ]
+					},
+					{
+						"time": 1.5667,
+						"value": 1.35,
+						"curve": [ 1.9, 1.35, 2.233, -0.44 ]
+					},
+					{
+						"time": 2.5667,
+						"value": -0.44,
+						"curve": [ 3.09, -0.44, 3.476, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_03_01": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.278, 1.57, 0.556, 2.15 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 2.15,
+						"curve": [ 1.089, 2.15, 1.344, 1.35 ]
+					},
+					{
+						"time": 1.6,
+						"value": 1.35,
+						"curve": [ 1.944, 1.35, 2.289, -0.44 ]
+					},
+					{
+						"time": 2.6333,
+						"value": -0.44,
+						"curve": [ 3.133, -0.44, 3.5, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_02_05": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.322, 1.57, 0.644, 2.15 ]
+					},
+					{
+						"time": 0.9667,
+						"value": 2.15,
+						"curve": [ 1.283, 2.15, 1.6, 1.35 ]
+					},
+					{
+						"time": 1.9167,
+						"value": 1.35,
+						"curve": [ 2.294, 1.35, 2.672, -4.72 ]
+					},
+					{
+						"time": 3.05,
+						"value": -4.72,
+						"curve": [ 3.407, -4.72, 3.643, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_02_04": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.311, 1.57, 0.622, 2.15 ]
+					},
+					{
+						"time": 0.9333,
+						"value": 2.15,
+						"curve": [ 1.222, 2.15, 1.511, 1.35 ]
+					},
+					{
+						"time": 1.8,
+						"value": 1.35,
+						"curve": [ 2.156, 1.35, 2.511, -3.01 ]
+					},
+					{
+						"time": 2.8667,
+						"value": -3.01,
+						"curve": [ 3.29, -3.01, 3.576, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_02_03": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.3, 1.57, 0.6, 2.15 ]
+					},
+					{
+						"time": 0.9,
+						"value": 2.15,
+						"curve": [ 1.172, 2.15, 1.444, 4.12 ]
+					},
+					{
+						"time": 1.7167,
+						"value": 4.12,
+						"curve": [ 2.061, 4.12, 2.406, -0.44 ]
+					},
+					{
+						"time": 2.75,
+						"value": -0.44,
+						"curve": [ 3.215, -0.44, 3.535, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_02_02": {
+				"rotate": [
+					{
+						"value": 5.83,
+						"curve": [ 0.289, 5.83, 0.578, 10.46 ]
+					},
+					{
+						"time": 0.8667,
+						"value": 10.46,
+						"curve": [ 1.128, 10.46, 1.389, 6.56 ]
+					},
+					{
+						"time": 1.65,
+						"value": 6.56,
+						"curve": [ 1.989, 6.56, 2.328, -0.44 ]
+					},
+					{
+						"time": 2.6667,
+						"value": -0.44,
+						"curve": [ 3.162, -0.44, 3.505, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_02_01": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.278, 1.57, 0.556, 2.15 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 2.15,
+						"curve": [ 1.089, 2.15, 1.344, 1.35 ]
+					},
+					{
+						"time": 1.6,
+						"value": 1.35,
+						"curve": [ 1.933, 1.35, 2.267, -0.44 ]
+					},
+					{
+						"time": 2.6,
+						"value": -0.44,
+						"curve": [ 3.119, -0.44, 3.481, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"004_millsage_02_cafe_04_houka_eyelash_right_04": {
+				"rotate": [
+					{
+						"time": 0.0833,
+						"curve": [ 0.161, 0, 0.274, 25.55 ]
+					},
+					{ "time": 0.3, "value": 29.09, "curve": "stepped" },
+					{ "time": 0.3167, "curve": "stepped" },
+					{ "time": 1.3167, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"value": 29.09,
+						"curve": [ 1.399, 27.01, 1.71, 0 ]
+					},
+					{ "time": 1.85 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_leg_right_lower": {
+				"rotate": [
+					{ "value": 0.67 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_leg_right_upper": {
+				"rotate": [
+					{ "value": -0.7 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_leg_left_lower": {
+				"rotate": [
+					{ "value": 0.25 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_leg_left_upper": {
+				"rotate": [
+					{ "value": -0.33 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_finger_E01": {
+				"rotate": [
+					{ "value": 12.55, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"value": 12.55,
+						"curve": [ 0.922, 12.55, 1.244, 9.86 ]
+					},
+					{
+						"time": 1.5667,
+						"value": 9.86,
+						"curve": [ 1.802, 9.86, 1.973, 18.63 ]
+					},
+					{
+						"time": 2.1167,
+						"value": 19.65,
+						"curve": [ 2.339, 21.23, 2.498, 20.77 ]
+					},
+					{
+						"time": 2.7333,
+						"value": 20.77,
+						"curve": [ 3.165, 20.77, 3.569, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_finger_B_01": {
+				"rotate": [
+					{ "value": -22.77, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"value": -22.77,
+						"curve": [ 0.922, -22.77, 1.244, -19.92 ]
+					},
+					{
+						"time": 1.5667,
+						"value": -19.92,
+						"curve": [ 2.165, -19.92, 2.346, -6.83 ]
+					},
+					{
+						"time": 2.7333,
+						"value": -6.83,
+						"curve": [ 3.165, -6.83, 3.569, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_finger_C02": {
+				"rotate": [
+					{
+						"time": 0.6,
+						"curve": [ 0.922, 0, 1.244, -0.93 ]
+					},
+					{
+						"time": 1.5667,
+						"value": -0.93,
+						"curve": [ 2.165, -0.93, 2.346, 2.85 ]
+					},
+					{
+						"time": 2.7333,
+						"value": 2.85,
+						"curve": [ 3.165, 2.85, 3.569, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_finger_C01": {
+				"rotate": [
+					{ "value": 6.47, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"value": 6.47,
+						"curve": [ 0.922, 6.47, 1.244, 4.87 ]
+					},
+					{
+						"time": 1.5667,
+						"value": 4.87,
+						"curve": [ 1.802, 4.87, 1.973, 13.13 ]
+					},
+					{
+						"time": 2.1167,
+						"value": 13.54,
+						"curve": [ 2.388, 14.3, 2.581, 12.48 ]
+					},
+					{
+						"time": 2.8667,
+						"value": 12.48,
+						"curve": [ 3.253, 12.48, 3.614, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_hand": {
+				"rotate": [
+					{
+						"value": -4.09,
+						"curve": [ 0.2, -4.09, 0.4, -2.98 ]
+					},
+					{
+						"time": 0.6,
+						"value": -2.98,
+						"curve": [ 1.054, -2.6, 1.244, -3.99 ]
+					},
+					{
+						"time": 1.5667,
+						"value": -3.99,
+						"curve": [ 1.707, -3.99, 1.847, -10.35 ]
+					},
+					{
+						"time": 1.9833,
+						"value": -9.46,
+						"curve": [ 2.236, -7.9, 2.484, 3.8 ]
+					},
+					{
+						"time": 2.7333,
+						"value": 3.8,
+						"curve": [ 3.165, 3.8, 3.569, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_lower": {
+				"rotate": [
+					{
+						"value": 11.44,
+						"curve": [ 0.108, 10.35, 0.281, 4.6 ]
+					},
+					{
+						"time": 0.6,
+						"value": 2.27,
+						"curve": [ 1.054, 2.25, 1.244, 4.57 ]
+					},
+					{
+						"time": 1.5667,
+						"value": 4.57,
+						"curve": [ 1.67, 3.61, 2.106, -2.93 ]
+					},
+					{
+						"time": 2.7333,
+						"value": -3.67,
+						"curve": [ 3.165, -3.67, 3.569, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_sholder": {
+				"rotate": [
+					{
+						"value": -4.73,
+						"curve": [ 0.234, -3.77, 0.606, -2.35 ]
+					},
+					{ "time": 0.8833, "value": -2.35, "curve": "stepped" },
+					{
+						"time": 1.5667,
+						"value": -2.35,
+						"curve": [ 1.968, -0.8, 2.392, 1.37 ]
+					},
+					{
+						"time": 2.7333,
+						"value": 1.37,
+						"curve": [ 3.165, 1.37, 3.569, 0 ]
+					},
+					{ "time": 4 }
+				],
+				"translate": [
+					{
+						"x": 17,
+						"y": 17.29,
+						"curve": [ 0.415, 9.88, 0.226, 6.96, 0.415, 16.75, 0.226, 16.53 ]
+					},
+					{ "time": 1.15, "x": 6.96, "y": 16.53, "curve": "stepped" },
+					{
+						"time": 1.45,
+						"x": 6.96,
+						"y": 16.53,
+						"curve": [ 2.108, 6.96, 2.455, 0.4, 2.108, 16.54, 2.455, 0.94 ]
+					},
+					{ "time": 2.7333 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_left_finger": {
+				"rotate": [
+					{ "value": 15.22, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"value": 15.22,
+						"curve": [ 1.311, 15.22, 2.022, 7.29 ]
+					},
+					{
+						"time": 2.7333,
+						"value": 7.29,
+						"curve": [ 3.174, 5.69, 3.559, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_left_hand": {
+				"rotate": [
+					{
+						"value": -4.25,
+						"curve": [ 0.2, -4.25, 0.4, -4.95 ]
+					},
+					{
+						"time": 0.6,
+						"value": -4.95,
+						"curve": [ 0.804, -5, 1.244, -5.37 ]
+					},
+					{
+						"time": 1.5667,
+						"value": -5.37,
+						"curve": [ 1.808, -3.59, 1.918, 2.12 ]
+					},
+					{
+						"time": 2.7333,
+						"value": 2.26,
+						"curve": [ 3.177, 2.26, 3.556, 0 ]
+					},
+					{ "time": 4 }
+				],
+				"scale": [
+					{ "x": 0.885, "curve": "stepped" },
+					{
+						"time": 1.5667,
+						"x": 0.885,
+						"curve": [ 1.956, 0.885, 2.344, 1, 1.956, 1, 2.344, 1 ]
+					},
+					{ "time": 2.7333 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_left_lower": {
+				"rotate": [
+					{
+						"value": 18.3,
+						"curve": [ 0.108, 17.39, 0.281, 9.42 ]
+					},
+					{
+						"time": 0.6,
+						"value": 7.49,
+						"curve": [ 0.804, 7.16, 1.244, 6.49 ]
+					},
+					{
+						"time": 1.5667,
+						"value": 6.49,
+						"curve": [ 1.875, 6.49, 1.99, 3.95 ]
+					},
+					{
+						"time": 2.1667,
+						"value": 2.29,
+						"curve": [ 2.357, 0.55, 2.545, -3.59 ]
+					},
+					{
+						"time": 2.7333,
+						"value": -3.59,
+						"curve": [ 3.177, -3.59, 3.556, 0 ]
+					},
+					{ "time": 4 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.6, "curve": "stepped" },
+					{ "time": 1.5667 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_left_upper": {
+				"rotate": [
+					{
+						"value": -0.12,
+						"curve": [ 0.391, -0.33, 0.374, -2.72 ]
+					},
+					{
+						"time": 0.6,
+						"value": -3.24,
+						"curve": [ 0.922, -3.24, 1.244, -1.91 ]
+					},
+					{
+						"time": 1.5667,
+						"value": -1.91,
+						"curve": [ 2.165, -1.91, 2.401, 9.44 ]
+					},
+					{
+						"time": 2.7333,
+						"value": 9.44,
+						"curve": [ 3.174, 9.44, 3.559, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_left_sholder": {
+				"rotate": [
+					{
+						"value": -6.12,
+						"curve": [ 0.2, -6.12, 0.4, -6.83 ]
+					},
+					{
+						"time": 0.6,
+						"value": -6.83,
+						"curve": [ 0.922, -6.83, 1.244, -6.82 ]
+					},
+					{
+						"time": 1.5667,
+						"value": -6.82,
+						"curve": [ 1.968, -7.06, 2.392, -7.06 ]
+					},
+					{
+						"time": 2.7333,
+						"value": -7.06,
+						"curve": [ 3.165, -7.06, 3.569, 0 ]
+					},
+					{ "time": 4 }
+				],
+				"translate": [
+					{
+						"x": 6.94,
+						"y": 15.1,
+						"curve": [ 0.407, 3.19, 0.226, 1.46, 0.407, 14.96, 0.226, 14.89 ]
+					},
+					{ "time": 1.15, "x": 1.46, "y": 14.89, "curve": "stepped" },
+					{
+						"time": 1.45,
+						"x": 1.46,
+						"y": 14.89,
+						"curve": [ 2.108, 1.46, 2.455, 0.08, 2.108, 14.9, 2.455, 0.85 ]
+					},
+					{ "time": 2.7333 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_eyeball_right": {
+				"rotate": [
+					{ "value": 5.83, "curve": "stepped" },
+					{ "time": 0.3, "value": 5.83, "curve": "stepped" },
+					{ "time": 0.3167 }
+				],
+				"translate": [
+					{ "x": 3.37, "y": -3.02, "curve": "stepped" },
+					{
+						"time": 0.0833,
+						"x": 3.37,
+						"y": -3.02,
+						"curve": [ 0.161, 3.37, 0.274, -1.2, 0.161, -3.02, 0.274, -2.84 ]
+					},
+					{ "time": 0.3, "x": -1.84, "y": -2.82, "curve": "stepped" },
+					{ "time": 0.3167, "curve": "stepped" },
+					{ "time": 1.3167, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"x": -3.73,
+						"curve": [ 1.399, -3.46, 1.71, 0, 1.473, 0, 1.71, 0 ]
+					},
+					{ "time": 1.85 }
+				],
+				"scale": [
+					{ "y": 0.714, "curve": "stepped" },
+					{ "time": 0.3, "y": 0.714, "curve": "stepped" },
+					{ "time": 0.3167 }
+				]
+			},
+			"004_millsage_02_cafe_04_houka_eyelash_right_03": {
+				"rotate": [
+					{
+						"time": 0.0833,
+						"curve": [ 0.161, 0, 0.274, -3.77 ]
+					},
+					{ "time": 0.3, "value": -4.29, "curve": "stepped" },
+					{ "time": 0.3167, "curve": "stepped" },
+					{ "time": 1.3167, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"value": -4.29,
+						"curve": [ 1.399, -3.99, 1.71, 0 ]
+					},
+					{ "time": 1.85 }
+				]
+			},
+			"004_millsage_02_cafe_04_houka_eyelash_right_02": {
+				"rotate": [
+					{ "value": -3.6, "curve": "stepped" },
+					{
+						"time": 0.0833,
+						"value": -3.6,
+						"curve": [ 0.161, -3.6, 0.274, -15.65 ]
+					},
+					{ "time": 0.3, "value": -17.32, "curve": "stepped" },
+					{ "time": 0.3167, "curve": "stepped" },
+					{ "time": 1.3167, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"value": -17.32,
+						"curve": [ 1.399, -16.08, 1.71, 0 ]
+					},
+					{ "time": 1.85 }
+				],
+				"translate": [
+					{ "x": -3.13, "y": -2.79, "curve": "stepped" },
+					{ "time": 0.3, "x": -3.13, "y": -2.79, "curve": "stepped" },
+					{ "time": 0.3167, "curve": "stepped" },
+					{ "time": 1.3167, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"x": -3.13,
+						"y": -2.79,
+						"curve": [ 1.399, -2.9, 1.71, 0, 1.399, -2.59, 1.71, 0 ]
+					},
+					{ "time": 1.85 }
+				]
+			},
+			"004_millsage_02_cafe_04_houka_eyelash_right_01": {
+				"rotate": [
+					{ "value": 5.43, "curve": "stepped" },
+					{
+						"time": 0.0833,
+						"value": 5.43,
+						"curve": [ 0.161, 5.43, 0.274, 12.29 ]
+					},
+					{ "time": 0.3, "value": 13.24, "curve": "stepped" },
+					{ "time": 0.3167, "curve": "stepped" },
+					{ "time": 1.3167, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"value": 13.24,
+						"curve": [ 1.399, 12.29, 1.71, 0 ]
+					},
+					{ "time": 1.85 }
+				],
+				"translate": [
+					{ "x": 0.52, "y": 1.87, "curve": "stepped" },
+					{
+						"time": 0.0833,
+						"x": 0.52,
+						"y": 1.87,
+						"curve": [ 0.161, 0.52, 0.274, -4.97, 0.161, 1.87, 0.274, 0.93 ]
+					},
+					{ "time": 0.3, "x": -5.74, "y": 0.8, "curve": "stepped" },
+					{ "time": 0.3167, "curve": "stepped" },
+					{ "time": 1.3167, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"x": -5.74,
+						"y": 0.8,
+						"curve": [ 1.399, -5.32, 1.71, 0, 1.399, 0.74, 1.71, 0 ]
+					},
+					{ "time": 1.85 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_eye_right": {
+				"rotate": [
+					{ "value": -14.72, "curve": "stepped" },
+					{ "time": 0.3, "value": -14.72, "curve": "stepped" },
+					{ "time": 0.3167, "curve": "stepped" },
+					{ "time": 1.3167, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"value": -14.72,
+						"curve": [ 1.399, -13.66, 1.71, 0 ]
+					},
+					{ "time": 1.85 }
+				],
+				"translate": [
+					{ "x": 0.21, "y": 2.79, "curve": "stepped" },
+					{ "time": 0.3, "x": 0.21, "y": 2.79, "curve": "stepped" },
+					{ "time": 0.3167, "curve": "stepped" },
+					{ "time": 1.3167, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"x": 0.21,
+						"y": 2.79,
+						"curve": [ 1.399, 0.2, 1.71, 0, 1.399, 2.59, 1.71, 0 ]
+					},
+					{ "time": 1.85 }
+				],
+				"scale": [
+					{ "y": 0.897, "curve": "stepped" },
+					{
+						"time": 0.0833,
+						"y": 0.897,
+						"curve": [ 0.161, 1, 0.274, 0.693, 0.161, 0.897, 0.246, 0.897 ]
+					},
+					{ "time": 0.3, "x": 0.65, "y": 0.897, "curve": "stepped" },
+					{ "time": 0.3167, "y": 0.835, "curve": "stepped" },
+					{ "time": 1.3167, "y": 0.835, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"x": 0.65,
+						"y": 0.897,
+						"curve": [ 1.399, 0.675, 1.71, 1, 1.399, 0.905, 1.71, 1 ]
+					},
+					{ "time": 1.85 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_eyelid_right": {
+				"translate": [
+					{ "x": 1.95, "y": 2.23, "curve": "stepped" },
+					{
+						"time": 0.0833,
+						"x": 1.95,
+						"y": 2.23,
+						"curve": [ 0.161, 1.95, 0.274, -2.96, 0.161, 2.23, 0.274, 0.62 ]
+					},
+					{ "time": 0.3, "x": -3.64, "y": 0.39, "curve": "stepped" },
+					{ "time": 0.3167, "x": -8.51, "y": 0.34, "curve": "stepped" },
+					{ "time": 1.3167, "x": -8.51, "y": 0.34, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"x": -3.64,
+						"y": 0.39,
+						"curve": [ 1.399, -3.38, 1.721, 0.02, 1.399, 0.4, 1.721, 0.58 ]
+					},
+					{ "time": 1.85, "x": 0.02, "y": 0.58 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_eyebrow_right_01": {
+				"rotate": [
+					{
+						"time": 0.0833,
+						"curve": [ 0.167, 0, 0.289, -3.5 ]
+					},
+					{ "time": 0.3167, "value": -3.99, "curve": "stepped" },
+					{
+						"time": 1.3167,
+						"value": -3.99,
+						"curve": [ 1.494, -3.99, 1.672, 0 ]
+					},
+					{ "time": 1.85 }
+				],
+				"translate": [
+					{
+						"time": 0.0833,
+						"curve": [ 0.167, 0, 0.289, -4.16, 0.167, 0, 0.259, 0 ]
+					},
+					{ "time": 0.3167, "x": -4.74, "curve": "stepped" },
+					{
+						"time": 1.3167,
+						"x": -4.74,
+						"curve": [ 1.494, -4.74, 1.672, 0, 1.494, 0, 1.672, 0 ]
+					},
+					{ "time": 1.85 }
+				],
+				"scale": [
+					{ "x": 0.925, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.925 },
+					{ "time": 2.8167 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_06": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.333, 1.57, 0.667, 2.15 ]
+					},
+					{
+						"time": 1,
+						"value": 2.15,
+						"curve": [ 1.267, 2.15, 1.533, 1.35 ]
+					},
+					{
+						"time": 1.8,
+						"value": 1.35,
+						"curve": [ 2.211, 1.35, 2.622, -0.44 ]
+					},
+					{
+						"time": 3.0333,
+						"value": -0.44,
+						"curve": [ 3.385, -0.44, 3.648, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_05": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.322, 1.57, 0.644, 2.15 ]
+					},
+					{
+						"time": 0.9667,
+						"value": 2.15,
+						"curve": [ 1.211, 2.15, 1.456, 1.35 ]
+					},
+					{
+						"time": 1.7,
+						"value": 1.35,
+						"curve": [ 2.1, 1.35, 2.5, -0.44 ]
+					},
+					{
+						"time": 2.9,
+						"value": -0.44,
+						"curve": [ 3.299, -0.44, 3.601, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_04": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.311, 1.57, 0.622, 2.15 ]
+					},
+					{
+						"time": 0.9333,
+						"value": 2.15,
+						"curve": [ 1.172, 2.15, 1.411, 1.35 ]
+					},
+					{
+						"time": 1.65,
+						"value": 1.35,
+						"curve": [ 2.028, 1.35, 2.406, -0.44 ]
+					},
+					{
+						"time": 2.7833,
+						"value": -0.44,
+						"curve": [ 3.223, -0.44, 3.56, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_03": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.3, 1.57, 0.6, 2.15 ]
+					},
+					{
+						"time": 0.9,
+						"value": 2.15,
+						"curve": [ 1.133, 2.15, 1.367, 1.35 ]
+					},
+					{
+						"time": 1.6,
+						"value": 1.35,
+						"curve": [ 1.961, 1.35, 2.322, -0.44 ]
+					},
+					{
+						"time": 2.6833,
+						"value": -0.44,
+						"curve": [ 3.159, -0.44, 3.525, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_02": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.289, 1.57, 0.578, 2.15 ]
+					},
+					{
+						"time": 0.8667,
+						"value": 2.15,
+						"curve": [ 1.1, 2.15, 1.333, 1.35 ]
+					},
+					{
+						"time": 1.5667,
+						"value": 1.35,
+						"curve": [ 1.911, 1.35, 2.256, -0.44 ]
+					},
+					{
+						"time": 2.6,
+						"value": -0.44,
+						"curve": [ 3.105, -0.44, 3.495, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_01": {
+				"rotate": [
+					{
+						"value": -2.24,
+						"curve": [ 0.215, -1.61, 0.486, 2.81 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 3.35,
+						"curve": [ 1.568, 4.49, 1.288, 3.85 ]
+					},
+					{
+						"time": 1.5333,
+						"value": 3.85,
+						"curve": [ 1.867, 3.85, 2.2, -0.44 ]
+					},
+					{
+						"time": 2.5333,
+						"value": -0.44,
+						"curve": [ 3.062, -0.44, 3.471, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_012": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.333, 1.57, 0.667, 2.15 ]
+					},
+					{
+						"time": 1,
+						"value": 2.15,
+						"curve": [ 1.278, 2.15, 1.556, 1.35 ]
+					},
+					{
+						"time": 1.8333,
+						"value": 1.35,
+						"curve": [ 2.239, 1.35, 2.644, -0.44 ]
+					},
+					{
+						"time": 3.05,
+						"value": -0.44,
+						"curve": [ 3.391, -0.44, 3.659, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_011": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.322, 1.57, 0.644, 2.15 ]
+					},
+					{
+						"time": 0.9667,
+						"value": 2.15,
+						"curve": [ 1.217, 2.15, 1.467, 1.35 ]
+					},
+					{
+						"time": 1.7167,
+						"value": 1.35,
+						"curve": [ 2.1, 1.35, 2.483, -0.44 ]
+					},
+					{
+						"time": 2.8667,
+						"value": -0.44,
+						"curve": [ 3.272, -0.44, 3.595, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_010": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.311, 1.57, 0.622, 2.15 ]
+					},
+					{
+						"time": 0.9333,
+						"value": 2.15,
+						"curve": [ 1.167, 2.15, 1.4, 1.35 ]
+					},
+					{
+						"time": 1.6333,
+						"value": 1.35,
+						"curve": [ 2, 1.35, 2.367, -0.44 ]
+					},
+					{
+						"time": 2.7333,
+						"value": -0.44,
+						"curve": [ 3.185, -0.44, 3.548, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_09": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.3, 1.57, 0.6, 2.15 ]
+					},
+					{
+						"time": 0.9,
+						"value": 2.15,
+						"curve": [ 1.128, 2.15, 1.356, 1.35 ]
+					},
+					{
+						"time": 1.5833,
+						"value": 1.35,
+						"curve": [ 1.933, 1.35, 2.283, -0.44 ]
+					},
+					{
+						"time": 2.6333,
+						"value": -0.44,
+						"curve": [ 3.12, -0.44, 3.513, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_08": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.289, 1.57, 0.578, 2.15 ]
+					},
+					{
+						"time": 0.8667,
+						"value": 2.15,
+						"curve": [ 1.089, 2.15, 1.311, 1.35 ]
+					},
+					{
+						"time": 1.5333,
+						"value": 1.35,
+						"curve": [ 1.878, 1.35, 2.222, -0.44 ]
+					},
+					{
+						"time": 2.5667,
+						"value": -0.44,
+						"curve": [ 3.076, -0.44, 3.49, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_07": {
+				"rotate": [
+					{
+						"value": -2.6,
+						"curve": [ 0.215, -1.97, 0.486, 2.45 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 2.99,
+						"curve": [ 1.056, 3.34, 1.278, 3.15 ]
+					},
+					{
+						"time": 1.5,
+						"value": 3.15,
+						"curve": [ 1.833, 3.15, 2.167, -0.44 ]
+					},
+					{
+						"time": 2.5,
+						"value": -0.44,
+						"curve": [ 3.034, -0.44, 3.466, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_right_03": {
+				"rotate": [
+					{
+						"value": -17.24,
+						"curve": [ 0.3, -17.24, 0.6, -21.68 ]
+					},
+					{
+						"time": 0.9,
+						"value": -21.68,
+						"curve": [ 1.139, -21.68, 1.378, -17.01 ]
+					},
+					{
+						"time": 1.6167,
+						"value": -17.01,
+						"curve": [ 1.994, -17.01, 2.372, -0.44 ]
+					},
+					{
+						"time": 2.75,
+						"value": -0.44,
+						"curve": [ 3.196, -0.44, 3.554, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_right_02": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.289, 1.57, 0.578, 2.15 ]
+					},
+					{
+						"time": 0.8667,
+						"value": 2.15,
+						"curve": [ 1.094, 2.15, 1.322, 1.35 ]
+					},
+					{
+						"time": 1.55,
+						"value": 1.35,
+						"curve": [ 1.9, 1.35, 2.25, -0.44 ]
+					},
+					{
+						"time": 2.6,
+						"value": -0.44,
+						"curve": [ 3.098, -0.44, 3.502, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_right_01": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.278, 1.57, 0.556, 2.15 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 2.15,
+						"curve": [ 1.056, 2.15, 1.278, 1.35 ]
+					},
+					{
+						"time": 1.5,
+						"value": 1.35,
+						"curve": [ 1.833, 1.35, 2.167, -0.44 ]
+					},
+					{
+						"time": 2.5,
+						"value": -0.44,
+						"curve": [ 3.033, -0.44, 3.467, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_left_02": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.294, 1.57, 0.589, 9.07 ]
+					},
+					{
+						"time": 0.8833,
+						"value": 9.07,
+						"curve": [ 1.106, 9.07, 1.328, 1.35 ]
+					},
+					{
+						"time": 1.55,
+						"value": 1.35,
+						"curve": [ 1.917, 1.35, 2.283, -0.44 ]
+					},
+					{
+						"time": 2.65,
+						"value": -0.44,
+						"curve": [ 3.131, -0.44, 3.519, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_back_left_01": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.278, 1.57, 0.556, 2.15 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 2.15,
+						"curve": [ 1.056, 2.15, 1.278, 1.35 ]
+					},
+					{
+						"time": 1.5,
+						"value": 1.35,
+						"curve": [ 1.833, 1.35, 2.167, -0.44 ]
+					},
+					{
+						"time": 2.5,
+						"value": -0.44,
+						"curve": [ 3.033, -0.44, 3.467, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_left_01_02": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.289, 1.57, 0.578, 2.15 ]
+					},
+					{
+						"time": 0.8667,
+						"value": 2.15,
+						"curve": [ 1.094, 2.15, 1.322, 1.35 ]
+					},
+					{
+						"time": 1.55,
+						"value": 1.35,
+						"curve": [ 1.906, 1.35, 2.261, -0.44 ]
+					},
+					{
+						"time": 2.6167,
+						"value": -0.44,
+						"curve": [ 3.109, -0.44, 3.508, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_left_01_01": {
+				"rotate": [
+					{
+						"value": -12.97,
+						"curve": [ 0.278, -12.97, 0.556, -12.32 ]
+					},
+					{
+						"time": 0.8333,
+						"value": -12.32,
+						"curve": [ 1.056, -12.32, 1.278, -10.74 ]
+					},
+					{
+						"time": 1.5,
+						"value": -10.74,
+						"curve": [ 1.833, -10.74, 2.167, -0.44 ]
+					},
+					{
+						"time": 2.5,
+						"value": -0.44,
+						"curve": [ 3.033, -0.44, 3.467, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_left_right_03": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.3, 1.57, 0.6, 2.15 ]
+					},
+					{
+						"time": 0.9,
+						"value": 2.15,
+						"curve": [ 1.156, 2.15, 1.411, 1.35 ]
+					},
+					{
+						"time": 1.6667,
+						"value": 1.35,
+						"curve": [ 2.044, 1.35, 2.422, -0.44 ]
+					},
+					{
+						"time": 2.8,
+						"value": -0.44,
+						"curve": [ 3.24, -0.44, 3.56, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_left_right_02": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.289, 1.57, 0.578, 2.15 ]
+					},
+					{
+						"time": 0.8667,
+						"value": 2.15,
+						"curve": [ 1.111, 2.15, 1.356, 1.35 ]
+					},
+					{
+						"time": 1.6,
+						"value": 1.35,
+						"curve": [ 1.95, 1.35, 2.3, -0.44 ]
+					},
+					{
+						"time": 2.65,
+						"value": -0.44,
+						"curve": [ 3.144, -0.44, 3.506, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_left_right_01": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.278, 1.57, 0.556, 2.15 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 2.15,
+						"curve": [ 1.078, 2.15, 1.322, 1.35 ]
+					},
+					{
+						"time": 1.5667,
+						"value": 1.35,
+						"curve": [ 1.9, 1.35, 2.233, -0.44 ]
+					},
+					{
+						"time": 2.5667,
+						"value": -0.44,
+						"curve": [ 3.09, -0.44, 3.476, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_front_04": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.294, 1.57, 0.589, 2.15 ]
+					},
+					{
+						"time": 0.8833,
+						"value": 2.15,
+						"curve": [ 1.106, 2.15, 1.328, 1.35 ]
+					},
+					{
+						"time": 1.55,
+						"value": 1.35,
+						"curve": [ 1.911, 1.35, 2.272, -0.44 ]
+					},
+					{
+						"time": 2.6333,
+						"value": -0.44,
+						"curve": [ 3.12, -0.44, 3.513, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_front_03": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.278, 1.57, 0.556, 2.15 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 2.15,
+						"curve": [ 1.056, 2.15, 1.278, 1.35 ]
+					},
+					{
+						"time": 1.5,
+						"value": 1.35,
+						"curve": [ 1.833, 1.35, 2.167, -0.44 ]
+					},
+					{
+						"time": 2.5,
+						"value": -0.44,
+						"curve": [ 3.033, -0.44, 3.467, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_front_02": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.294, 1.57, 0.589, 2.15 ]
+					},
+					{
+						"time": 0.8833,
+						"value": 2.15,
+						"curve": [ 1.111, 2.15, 1.339, 1.35 ]
+					},
+					{
+						"time": 1.5667,
+						"value": 1.35,
+						"curve": [ 1.922, 1.35, 2.278, -0.44 ]
+					},
+					{
+						"time": 2.6333,
+						"value": -0.44,
+						"curve": [ 3.126, -0.44, 3.507, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hair_front_01": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.278, 1.57, 0.556, 2.15 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 2.15,
+						"curve": [ 1.067, 2.15, 1.3, 1.35 ]
+					},
+					{
+						"time": 1.5333,
+						"value": 1.35,
+						"curve": [ 1.867, 1.35, 2.2, -0.44 ]
+					},
+					{
+						"time": 2.5333,
+						"value": -0.44,
+						"curve": [ 3.062, -0.44, 3.471, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_face_con": {
+				"rotate": [
+					{ "value": 12.22, "curve": "stepped" },
+					{
+						"time": 0.6167,
+						"value": 12.22,
+						"curve": [ 1.333, 12.22, 2.05, 0 ]
+					},
+					{ "time": 2.7667 }
+				],
+				"translate": [
+					{
+						"x": 90.99,
+						"y": -99.91,
+						"curve": [ 0.206, 90.99, 0.411, 119.9, 0.206, -99.91, 0.411, -83.35 ]
+					},
+					{
+						"time": 0.6167,
+						"x": 119.9,
+						"y": -83.35,
+						"curve": [ 1.333, 119.9, 2.05, -19.7, 1.333, -83.35, 2.05, 9.94 ]
+					},
+					{
+						"time": 2.7667,
+						"x": -19.7,
+						"y": 9.94,
+						"curve": [ 3.191, -19.7, 3.575, 0, 3.191, 9.94, 3.575, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_head": {
+				"rotate": [
+					{
+						"value": 3.46,
+						"curve": [ 0.206, 3.46, 0.411, -0.87 ]
+					},
+					{
+						"time": 0.6167,
+						"value": -0.87,
+						"curve": [ 1.333, -0.87, 2.05, -0.57 ]
+					},
+					{
+						"time": 2.7667,
+						"value": -0.57,
+						"curve": [ 3.178, -0.57, 3.589, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_neck": {
+				"rotate": [
+					{
+						"value": 1.78,
+						"curve": [ 0.194, 1.78, 0.389, 2.6 ]
+					},
+					{
+						"time": 0.5833,
+						"value": 2.6,
+						"curve": [ 1.311, 2.6, 2.039, 0 ]
+					},
+					{ "time": 2.7667 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_body_upper": {
+				"rotate": [
+					{
+						"value": -5.96,
+						"curve": [ 0.183, -5.96, 1.228, -2.51 ]
+					},
+					{
+						"time": 1.5667,
+						"value": -2.51,
+						"curve": [ 1.967, -1.08, 2.398, -0.38 ]
+					},
+					{
+						"time": 2.7333,
+						"value": -0.38,
+						"curve": [ 3.165, -0.38, 3.569, 0 ]
+					},
+					{ "time": 4 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.183, 0, 0.367, 2.93, 0.183, 0, 0.367, 0 ]
+					},
+					{
+						"time": 0.55,
+						"x": 2.93,
+						"curve": [ 1.278, 2.93, 2.006, 0, 1.278, 0, 2.006, 0 ]
+					},
+					{ "time": 2.7333 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_body_lower": {
+				"rotate": [
+					{
+						"value": 0.97,
+						"curve": [ 0.2, 0.97, 0.4, 7.44 ]
+					},
+					{
+						"time": 0.6,
+						"value": 7.44,
+						"curve": [ 0.911, 7.44, 1.222, 6.61 ]
+					},
+					{
+						"time": 1.5333,
+						"value": 6.61,
+						"curve": [ 1.932, 4.84, 2.355, 0.32 ]
+					},
+					{
+						"time": 2.7,
+						"value": 0.32,
+						"curve": [ 3.133, 0.32, 3.567, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hip": {
+				"rotate": [
+					{
+						"value": -2.7,
+						"curve": [ 0.161, -2.7, 0.322, -1.23 ]
+					},
+					{
+						"time": 0.4833,
+						"value": -1.23,
+						"curve": [ 1.211, -1.23, 1.939, -0.46 ]
+					},
+					{
+						"time": 2.6667,
+						"value": -0.46,
+						"curve": [ 3.111, -0.46, 3.556, 0 ]
+					},
+					{ "time": 4 }
+				],
+				"translate": [
+					{ "x": -2.08, "curve": "stepped" },
+					{
+						"time": 0.4833,
+						"x": -2.08,
+						"curve": [ 1.211, -2.08, 1.939, 0, 1.211, 0, 1.939, 0 ]
+					},
+					{ "time": 2.6667 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_foot_right_IK": {
+				"rotate": [
+					{
+						"value": 32.76,
+						"curve": [ 0.194, 32.76, 0.349, 34.84 ]
+					},
+					{ "time": 0.4833, "value": 34.84, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"value": 34.84,
+						"curve": [ 2.003, 34.84, 2.028, 0 ]
+					},
+					{ "time": 3 }
+				],
+				"translate": [
+					{
+						"x": 226.39,
+						"y": -41.88,
+						"curve": [ 0.194, 226.39, 0.349, 175.74, 0.194, -41.88, 0.349, -53.27 ]
+					},
+					{ "time": 0.4833, "x": 175.74, "y": -53.27 },
+					{
+						"time": 1.3333,
+						"x": 161.72,
+						"y": -49.76,
+						"curve": [ 2.003, 161.72, 2.028, 0, 2.003, -49.76, 2.028, 0 ]
+					},
+					{ "time": 3 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_foot_left_IK": {
+				"rotate": [
+					{
+						"value": 31.13,
+						"curve": [ 0.35, 31.33, 0.757, 32.33 ]
+					},
+					{
+						"time": 1.1333,
+						"value": 32.33,
+						"curve": [ 1.257, 32.33, 1.378, 31.13 ]
+					},
+					{
+						"time": 1.5,
+						"value": 31.13,
+						"curve": [ 1.889, 31.13, 2.278, 0 ]
+					},
+					{ "time": 2.6667 }
+				],
+				"translate": [
+					{
+						"x": 228.19,
+						"y": -40.51,
+						"curve": [ 0.35, 217.99, 0.757, 166.86, 0.35, -40.76, 0.757, -42.01 ]
+					},
+					{
+						"time": 1.1333,
+						"x": 166.86,
+						"y": -42.01,
+						"curve": [ 1.257, 166.86, 1.378, 166.86, 1.257, -42.01, 1.378, -44.01 ]
+					},
+					{
+						"time": 1.5,
+						"x": 166.86,
+						"y": -44.01,
+						"curve": [ 1.889, 166.86, 2.278, -8.66, 1.889, -44.01, 2.278, 0 ]
+					},
+					{
+						"time": 2.6667,
+						"x": -8.66,
+						"curve": [ 3.111, -8.66, 3.556, 0, 3.111, 0, 3.556, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"004_millsage_02_cafe_04_houka_eyelash_left": {
+				"translate": [
+					{
+						"time": 0.0833,
+						"curve": [ 0.161, 0, 0.274, -4.29, 0.161, 0, 0.274, -1.07 ]
+					},
+					{ "time": 0.3, "x": -4.88, "y": -1.22, "curve": "stepped" },
+					{ "time": 0.3167, "x": -10.67, "y": -3.37, "curve": "stepped" },
+					{ "time": 1.3167, "x": -10.67, "y": -3.37, "curve": "stepped" },
+					{ "time": 1.3333, "x": -4.88, "y": -1.22 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_finger_B_02": {
+				"rotate": [
+					{ "value": 26.64, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"value": 26.64,
+						"curve": [ 0.922, 26.64, 1.244, 25.18 ]
+					},
+					{
+						"time": 1.5667,
+						"value": 25.18,
+						"curve": [ 2.165, 25.18, 2.344, 27.48 ]
+					},
+					{ "time": 2.7333, "value": 27.48 },
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_skirt_01": {
+				"rotate": [
+					{ "value": 2.39, "curve": "stepped" },
+					{
+						"time": 1.1667,
+						"value": 2.39,
+						"curve": [ 1.433, 2.39, 1.7, 0 ]
+					},
+					{ "time": 1.9667 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_skirt_02": {
+				"rotate": [
+					{ "value": 2.39, "curve": "stepped" },
+					{
+						"time": 1.25,
+						"value": 2.39,
+						"curve": [ 1.517, 2.39, 1.783, 0 ]
+					},
+					{ "time": 2.05 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_skirt_03": {
+				"rotate": [
+					{ "value": 2.39, "curve": "stepped" },
+					{
+						"time": 1.3667,
+						"value": 2.39,
+						"curve": [ 1.633, 2.39, 1.9, 0 ]
+					},
+					{ "time": 2.1667 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hairacc_01": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.509, 1.57, 1.157, 1.35 ]
+					},
+					{
+						"time": 1.6667,
+						"value": 1.35,
+						"curve": [ 2.044, 1.35, 2.422, -0.44 ]
+					},
+					{
+						"time": 2.8,
+						"value": -0.44,
+						"curve": [ 3.24, -0.44, 3.56, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_hairacc_02": {
+				"rotate": [
+					{
+						"value": 1.57,
+						"curve": [ 0.509, 1.57, 1.157, 1.35 ]
+					},
+					{
+						"time": 1.6667,
+						"value": 1.35,
+						"curve": [ 2.044, 1.35, 2.422, -3.22 ]
+					},
+					{
+						"time": 2.8,
+						"value": -3.22,
+						"curve": [ 3.24, -3.22, 3.56, 0 ]
+					},
+					{ "time": 4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_elbow": {
+				"translate": [
+					{}
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_left_elbow": {
+				"translate": [
+					{}
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_left_wrist": {
+				"translate": [
+					{
+						"curve": [ 0.38, -21.7, 0.312, -51.89, 0.38, -4.76, 0.312, -11.39 ]
+					},
+					{ "time": 1.15, "x": -53.58, "y": -11.76, "curve": "stepped" },
+					{
+						"time": 1.45,
+						"x": -53.58,
+						"y": -11.76,
+						"curve": [ 1.789, -53.58, 2.246, -7.57, 1.789, -11.76, 2.246, 6.64 ]
+					},
+					{
+						"time": 2.4667,
+						"x": -4.78,
+						"y": 7.75,
+						"curve": [ 2.475, -4.68, 3.089, 0, 2.475, 7.8, 3.089, 0.02 ]
+					},
+					{ "time": 3.4 }
+				]
+			},
+			"04_millsage_02_cafe_04_houka_arm_right_wrist": {
+				"translate": [
+					{
+						"x": -17.21,
+						"y": 0.46,
+						"curve": [ 0.38, -36.89, 0.312, -64.27, 0.38, -5.08, 0.312, -12.79 ]
+					},
+					{ "time": 1.15, "x": -65.8, "y": -13.22, "curve": "stepped" },
+					{
+						"time": 1.45,
+						"x": -65.8,
+						"y": -13.22,
+						"curve": [ 1.789, -65.8, 2.246, -1.52, 1.789, -13.22, 2.246, -0.65 ]
+					},
+					{
+						"time": 2.4667,
+						"x": 2.37,
+						"y": 0.11,
+						"curve": [ 2.475, 2.52, 3.089, 0, 2.475, 0.14, 3.089, 0 ]
+					},
+					{ "time": 3.4 }
+				]
+			}
+		},
+		"ik": {
+			"04_millsage_02_cafe_04_houka_arm_left_wrist": [
+				{
+					"softness": 12.78,
+					"stretch": true,
+					"curve": [ 0.483, 1, 0.667, 1, 0.37, 23.94, 0.667, 38.35 ]
+				},
+				{ "time": 1.15, "softness": 38.35, "stretch": true, "curve": "stepped" },
+				{
+					"time": 1.45,
+					"softness": 38.35,
+					"stretch": true,
+					"curve": [ 1.784, 1, 2.462, 1, 1.783, 38.35, 2.246, 27.51 ]
+				},
+				{
+					"time": 2.4667,
+					"softness": 26.85,
+					"stretch": true,
+					"curve": [ 2.778, 1, 3.089, 1, 2.475, 26.83, 3.089, 0.12 ]
+				},
+				{ "time": 3.4, "stretch": true }
+			],
+			"04_millsage_02_cafe_04_houka_arm_right_wrist": [
+				{
+					"softness": 19.18,
+					"stretch": true,
+					"curve": [ 0.383, 1, 0.767, 1, 0.383, 19.18, 0.767, 19.18 ]
+				},
+				{ "time": 1.15, "softness": 19.18, "stretch": true, "curve": "stepped" },
+				{
+					"time": 1.45,
+					"softness": 19.18,
+					"stretch": true,
+					"curve": [ 1.789, 1, 2.128, 1, 1.789, 19.18, 2.246, 28.42 ]
+				},
+				{
+					"time": 2.4667,
+					"softness": 28.98,
+					"stretch": true,
+					"curve": [ 2.778, 1, 3.089, 1, 2.475, 29, 3.089, 0 ]
+				},
+				{ "time": 3.4, "stretch": true }
+			]
+		},
+		"attachments": {
+			"default": {
+				"04_millsage_02_cafe_04_houka_arm_right": {
+					"04_millsage_02_cafe_04_houka_arm_right": {
+						"deform": [
+							{
+								"vertices": [ 2.19824, 6.79248, -6.85864, -1.97058, 3.30371, 3.60571, 0, 0, 0, 0, 13.78052, -1.01709, 13.57104, -2.56677, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19.9812, 1.94531, -2.51221, -3.22412, 4.08618, -0.18909, 0.20557, 4.37817, -3.74512, -2.27429, 0, 0, 0, 0, 0, 0, 0, 0, -4.97412, -6.18262, 7.91309, -0.57764, 12.13062, 0.38208 ],
+								"curve": [ 0.2, 0, 0.4, 1 ]
+							},
+							{
+								"time": 0.6,
+								"vertices": [ 2.19824, 6.79248, -6.85864, -1.97058, 3.30371, 3.60571, 0, 0, 0, 0, 13.78052, -1.01709, 13.57104, -2.56677, -12.06372, 1.55945, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19.9812, 1.94531, -2.51221, -3.22412, 4.08618, -0.18909, 0.20557, 4.37817, -3.74512, -2.27429, 0, 0, 0, 0, 0, 0, 0, 0, -4.97412, -6.18262, 7.91309, -0.57764, 12.13062, 0.38208 ],
+								"curve": [ 0.951, 0, 1.302, 0.24 ]
+							},
+							{
+								"time": 1.65,
+								"vertices": [ 1.12454, 3.47478, -3.50863, -1.00808, 1.69005, 1.84455, 0, 0, 0, 0, 7.0496, -0.52031, 6.94244, -1.31306, -16.92574, 1.60801, -1.25952, 2.55182, 0.22778, 2.8363, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10.22163, 0.99515, -1.28515, -1.64934, 2.09034, -0.09673, 0.10516, 2.23971, -1.91586, -1.16344, 0, 0, 0, 0, 0, 0, 0, 0, -2.54457, -3.1628, 4.04804, -0.2955, 6.20557, 0.19546 ],
+								"curve": [ 2.013, 0.74, 2.373, 1 ]
+							},
+							{ "time": 2.7333 }
+						]
+					}
+				},
+				"04_millsage_02_cafe_04_houka_shadow_01": {
+					"04_millsage_02_cafe_04_houka_shadow_01": {
+						"deform": [
+							{
+								"vertices": [ -26.70215, 0, -26.70215, 0, -26.70215, 0, -26.70215 ],
+								"curve": [ 0.221, 0, 0.398, 1 ]
+							},
+							{
+								"time": 0.55,
+								"vertices": [ -61.07788, 0, -61.07788, 0, -61.07788, 0, -61.07788 ],
+								"curve": "stepped"
+							},
+							{
+								"time": 1.4667,
+								"vertices": [ -61.07788, 0, -61.07788, 0, -61.07788, 0, -61.07788 ],
+								"curve": [ 2.172, 0, 2.878, 1 ]
+							},
+							{ "time": 3.5833 }
+						]
+					}
+				},
+				"04_millsage_02_cafe_04_houka_steam": {
+					"04_millsage_02_cafe_04_houka_steam": {
+						"deform": [
+							{
+								"offset": 1,
+								"vertices": [ -21.74658, 0, -21.74658, 0, -69.89966, 0, -69.89966 ],
+								"curve": [ 0.578, 0, 1.207, 0.34 ]
+							},
+							{
+								"time": 1.7333,
+								"vertices": [ -0.95215, -0.50264, -0.95215, -0.50264, 0, -19.7674, 0, -19.7674 ],
+								"curve": [ 2.269, 0.67, 2.944, 1 ]
+							},
+							{
+								"time": 3.55,
+								"offset": 1,
+								"vertices": [ 57.4729, 0, 57.4729, 0, 31.06641, 0, 31.06641 ]
+							}
+						]
+					}
+				},
+				"04_millsage_02_cafe_04_houka_steam2": {
+					"04_millsage_02_cafe_04_houka_steam": {
+						"deform": [
+							{
+								"time": 1,
+								"offset": 1,
+								"vertices": [ -34.1731, 0, -34.1731, 0, -74.55957, 0, -74.55957 ],
+								"curve": [ 2, 0, 3, 1 ]
+							},
+							{ "time": 4 }
+						]
+					}
+				},
+				"04_millsage_02_cafe_04_houka_steam3": {
+					"04_millsage_02_cafe_04_houka_steam": {
+						"deform": [
+							{
+								"curve": [ 0.361, 0.2, 1.156, 1 ]
+							},
+							{
+								"time": 1.7333,
+								"vertices": [ 12.95093, 58.80762, -24.5603, 69.22754, -21.13696, 29.33008, 15.33252, 27.24609 ]
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

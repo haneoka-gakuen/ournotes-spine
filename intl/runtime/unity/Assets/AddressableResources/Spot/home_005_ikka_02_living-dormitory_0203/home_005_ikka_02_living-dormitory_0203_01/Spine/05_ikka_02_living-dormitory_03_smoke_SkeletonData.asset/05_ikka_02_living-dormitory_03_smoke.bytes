@@ -1,0 +1,108 @@
+{
+"skeleton": {
+	"hash": "ITTtKnFXv8I",
+	"spine": "4.2.40",
+	"x": -4108,
+	"y": -2334,
+	"width": 9480,
+	"height": 4668,
+	"fps": 60,
+	"images": "./images/images_BG/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "steam_shizuku_1", "parent": "root", "x": -3075.17, "y": -808.67, "color": "00cfffff", "icon": "spiral" }
+],
+"slots": [
+	{ "name": "05_ikka_02_living-dormitory_03_BG1_table", "bone": "root" },
+	{ "name": "05_ikka_02_living-dormitory_03_BG1_food_2", "bone": "root", "attachment": "05_ikka_02_living-dormitory_03_BG1_food_2" },
+	{ "name": "05_ikka_02_living-dormitory_03_BG1_steam_5", "bone": "steam_shizuku_1" },
+	{ "name": "05_ikka_02_living-dormitory_03_BG1_food_1", "bone": "root", "attachment": "05_ikka_02_living-dormitory_03_BG1_food_1" },
+	{ "name": "05_ikka_02_living-dormitory_03_BG1_balcony", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"05_ikka_02_living-dormitory_03_BG1_food_1": {
+				"05_ikka_02_living-dormitory_03_BG1_food_1": {
+					"type": "mesh",
+					"uvs": [ 0.61283, 0, 1, 0.18487, 1, 0.57779, 0.99591, 0.86333, 0.57059, 1, 0.24681, 1, 0, 0.75196, 0, 0.48217, 0.05096, 0.24257, 0.4014, 0 ],
+					"triangles": [ 0, 1, 2, 6, 7, 8, 2, 4, 0, 5, 8, 9, 6, 8, 5, 4, 9, 0, 3, 4, 2, 5, 9, 4 ],
+					"vertices": [ -3048.25, -677, -2929, -695.3, -2929, -734.2, -2930.26, -762.47, -3061.26, -776, -3160.98, -776, -3237, -751.44, -3237, -724.73, -3221.3, -701.01, -3113.37, -677 ],
+					"hull": 10,
+					"edges": [ 0, 18, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18 ],
+					"width": 308,
+					"height": 99
+				}
+			},
+			"05_ikka_02_living-dormitory_03_BG1_food_2": {
+				"05_ikka_02_living-dormitory_03_BG1_food_2": {
+					"type": "mesh",
+					"uvs": [ 0.76182, 0, 0.73696, 0.37414, 1, 0.53306, 1, 0.80397, 0.68078, 0.99736, 0.51436, 1, 0.26491, 1, 0, 0.85708, 0, 0.6715, 0.00143, 0.59118, 0.24719, 0.41476, 0.17488, 0 ],
+					"triangles": [ 0, 10, 11, 1, 10, 0, 1, 2, 3, 6, 7, 8, 1, 5, 10, 4, 1, 3, 5, 6, 10, 8, 9, 10, 10, 6, 8, 1, 4, 5 ],
+					"vertices": [ -2995.55, -735, -3002.81, -825.54, -2926, -864, -2926, -929.56, -3019.21, -976.36, -3067.81, -977, -3140.65, -977, -3218, -942.41, -3218, -897.5, -3217.58, -878.07, -3145.82, -835.37, -3166.94, -735 ],
+					"hull": 12,
+					"edges": [ 0, 22, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22 ],
+					"width": 292,
+					"height": 242
+				}
+			},
+			"05_ikka_02_living-dormitory_03_BG1_steam_5": {
+				"05_ikka_02_living-dormitory_03_BG1_steam": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 92.23, -42.92, -132.12, -8.38, -110.82, 129.99, 113.54, 95.45 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 227,
+					"height": 140
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"home_start": {
+		"slots": {
+			"05_ikka_02_living-dormitory_03_BG1_steam_5": {
+				"rgba": [
+					{
+						"color": "ffffff56",
+						"curve": [ 0.332, 1, 0.668, 1, 0.332, 1, 0.668, 1, 0.332, 1, 0.668, 1, 0.1, 0.61, 0.303, 0.5 ]
+					},
+					{
+						"time": 1,
+						"color": "ffffff89",
+						"curve": [ 1.521, 1, 3, 1, 1.521, 1, 3, 1, 1.521, 1, 3, 1, 2.027, 0.6, 3, 0 ]
+					},
+					{ "time": 4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "05_ikka_02_living-dormitory_03_BG1_steam" },
+					{ "time": 4, "name": "05_ikka_02_living-dormitory_03_BG1_steam" }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"05_ikka_02_living-dormitory_03_BG1_steam_5": {
+					"05_ikka_02_living-dormitory_03_BG1_steam": {
+						"deform": [
+							{
+								"vertices": [ 76.12769, -18.19611, -99.8269, 8.89166, -90.77954, 67.66046, 85.1748, 40.57275 ]
+							},
+							{
+								"time": 4,
+								"vertices": [ 97.6311, -3.26758, -150.79297, 34.97656, -130.78076, 164.96954, 117.64307, 126.7254 ]
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

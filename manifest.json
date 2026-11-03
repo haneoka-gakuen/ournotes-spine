@@ -1,0 +1,19 @@
+{
+  "schema": "haneoka-spine-v1",
+  "servers": {
+    "jp": {
+      "sha256": "30db3c9797f64466445e8460c67b58571f3c8749cde257f9774847f169ac484a",
+      "files": 635,
+      "input": "r-e261e5c71807bf57801b",
+      "hash": "8be74134b87dacf7ce1f38967cd66745",
+      "version": "1.1.0.200"
+    },
+    "intl": {
+      "sha256": "b7536c832246e5c2ebc29ce22a234d8c708bdae1ea21d4a1e1163380319bbd3c",
+      "files": 635,
+      "input": "r-6d239366cf3b7cb3c0ad",
+      "hash": "c045774b66a6c9d107739ba5ca121e6a",
+      "version": "1.1.0.200"
+    }
+  }
+}
